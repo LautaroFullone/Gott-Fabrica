@@ -1,3 +1,6 @@
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
 <div class="header">
     <div>
       <a class="header-logo" href="/">
@@ -88,6 +91,6 @@
         <div class="header-slogan-row-2">
             <div class="header-slogan-text">Fabricamos sillas desde 1974</div>
         </div>
-        
+
     </div>
 </div>
