@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.main-container {
+    margin: 0;
+    padding: 0 60px;
+    color: #000;
+}
+
+
+.header {
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 200px auto 200px;
+    height: 60px;
+    padding: 25px 60px;
+
+}
+.header .header-logo {
+    display: grid;
+    grid-template-columns: 140px auto;
+    align-items: center;
+}
+.header-logo img {
+    width: 100%;
+}
+.header-logo .logo-text {
+    text-transform: uppercase;
+    font-family: Lato-Regular;
+    font-size: 10px;
+    margin-left: 10px;
+}
+.header .header-menu {
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.header-menu-row-1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: start;
+}
+.header-menu-row-2-item {
+    position: relative;
+}
+.header-menu-row-2-item i {
+    color: #aaa;
+}
+.header-menu-row-1-item a {
+    font-size: 14px;
+    font-family: Lato-Bold;
+    margin-right: 20px;
+    color: inherit;
+    text-decoration: none;
+}
+.header-menu-row-1-item a:hover {
+    text-decoration: underline;
+    text-decoration-color: #777;
+}
+
+.dropdown-menu,
+.dropdown-menu-seguinos {
+    display: none;
+    position: absolute;
+    top: 15px;
+    left: 0;
+    width: 150px;
+    background-color: #fff;
+    z-index: 600;
+
+    font-family: Lato-Regular;
+    font-size: 11px;
+    padding-top: 30px;
+    box-sizing: border-box;
+
+
+}
+
+
+
+.header-menu-row-2-item:hover .dropdown-menu,
+.dropdown-menu:hover {
+    display: grid;
+}
+.header-menu-row-2-item:hover .dropdown-menu-seguinos,
+.dropdown-menu-seguinos:hover {
+    display: grid;
+}
+
+.dropdown-menu-seguinos i {
+    color: #de0d1f !important;
+    font-size: 15px;
+}
+
+.dropdown-menu a,
+.dropdown-menu-seguinos a {
+    padding: 10px 20px;
+}
+.dropdown-menu a:hover {
+    background-color: #f3f3f3;
+    text-decoration: underline;
+    text-decoration-color: #777;
+}
+.dropdown-menu-seguinos a:hover {
+    background-color: #f3f3f3;
+}
+
+.dropdown-menu a:hover,
+.dropdown-menu-seguinos a:hover .seguinos-text {
+    text-decoration: underline;
+    text-decoration-color: #777;
+}
+
+
+.dropdown-menu-seguinos a {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+
+.single-link:hover {
+    text-decoration: underline;
+    text-decoration-color: #777;
+}
+
+
+
+
+
+
+
+
+.linea {
+    height: 1px;
+    background-color: #ddd;
+    width: 100%;
+}
+.header-menu .linea {
+    width: 140%;
+}
+.header-menu-row-2 {
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    justify-content: start;
+}
+.header-menu-row-2-item > a {
+    font-size: 11px;
+    font-family: Lato-Regular;
+    margin-right: 20px;
+    color: inherit;
+    text-decoration: none;
+}
+.header-slogan {
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+}
+.header-slogan-row-1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: end;
+}
+.header-slogan-row-1-item {
+    font-size: 15px;
+    font-family: Lato-Regular;
+}
+.header-slogan-row-1 .cart-amount {
+    font-size: 14px;
+    font-family: Lato-Regular;
+}
+.header-slogan-row-1  i {
+    margin-left: 10px;
+}
+.header-slogan-row-2 {
+    font-size: 13px;
+    font-family: Lato-Regular;
+    color: #de0d1f;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: end;
+}
+/* --------------------------------------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------------------------------*/
+/* ----------------------------------------SHOP INDEX------------------------------------------------*/
+/* --------------------------------------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------------------------------*/
+
+#shop-index {
+    background-color: #f3f3f3;
+}
+
+.promo-container {
+    height: 95%;
+    overflow: hidden;
+}
+
+.promo-container img {
+    width: 100%;
+}
+
+.search-section {
+    width: 100%;
+    height: 65px;
+    padding: 0 20px;
+
+    background-color: #de0d1f;
+    color: #fff;
+    font-family: Lato-Bold;
+
+    display: grid;
+    grid-template-columns: auto 40% auto;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.search-title {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.search-bar input {
+    width: 100%;
+}
+
+.shipping-section {
+    width: 100%;
+    height: 50px;
+    padding: 0 20px;
+
+    background-color: #fff;
+    font-family: Lato-Regular;
+    font-size: 12px;
+    text-align: left;
+
+    display: grid;
+    grid-template-columns: auto 80%;
+    align-content: center;
+    box-sizing: border-box;
+}
+
+.breadcrumb span,
+.shipping-items .item-4 span {
+    font-weight: 700;
+}
+
+.shipping-items {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: end;
+    grid-gap: 6%;
+    padding-right: 6%;
+}
+.shipping-items .link {
+    color: #de0d1f;
+    text-decoration: underline;
+}
+.shipping-items .item-1,
+.shipping-items .item-2,
+.shipping-items .item-3 {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.shipping-items .item-1 img {
+    width: 120px;
+}
+.shipping-items i {
+    font-size: 20px;
+}
+/* --------------------------------------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------------------------------*/
+/* ----------------------------------------pag 22------------------------------------------------*/
+/* --------------------------------------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------------------------------*/
+

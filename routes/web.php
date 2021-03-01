@@ -11,26 +11,17 @@
 |
 */
 
-Route::get('/', function () {
-    return view('frontend.index');
-});
+Route::get('/','WebController@showIndex')->name('/');
 
-Route::get('/tienda', function () {
-    return view('frontend.shop-index');
-});
+Route::get('/tienda', 'WebController@showTienda')->name('tienda');
 
-Route::get('/empresarios', function () {
-    return view('frontend.empresarios');
-});
+Route::get('/empresarios', 'WebController@showEmpresarios')->name('empresarios');
 
-Route::get('/profesionales', function () {
-    return view('frontend.profesionales');
-});
+Route::get('/profesionales','WebController@showProfecionales')->name('profesionales');
 
-Route::get('/novedades', function () {
-    return view('frontend.novedades');
-});
+Route::get('/novedades', 'WebController@showNovedades')->name('novedades');
 
-Route::get('/novedades/{id}', function () {
-    return view('frontend.novedades-detail');
-});
+Route::get('/novedades/{id}','WebController@showNovedadesDetalle')->name('novedadesDetalle');
+
+Route::get('/pageNotFound','WebController@showPageNotFound')->name('notFound');
+
