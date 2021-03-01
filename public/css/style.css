@@ -1,3 +1,34 @@
+
+:root {
+
+    /* Colors: */
+    --unnamed-color-2727271a: #272727;
+    --unnamed-color-e6e3de: #E6E3DE;
+    --unnamed-color-de0d1f: #DE0D1F;
+    --unnamed-color-f3f3f3: #F3F3F3;
+    --unnamed-color-ffffff: #FFFFFF;
+    --unnamed-color-272727: #272727;
+
+    /* Font/text values */
+    --unnamed-font-family-lato: Lato;
+    --unnamed-font-style-normal: normal;
+    --unnamed-font-weight-900: 900px;
+    --unnamed-font-weight-normal: normal;
+    --unnamed-font-weight-medium: medium;
+    --unnamed-font-size-14: 14px;
+    --unnamed-font-size-16: 16px;
+    --unnamed-font-size-20: 20px;
+    --unnamed-font-size-35: 35px;
+    --unnamed-font-size-45: 45px;
+    --unnamed-character-spacing-0: 0px;
+    --unnamed-line-spacing-24: 24px;
+    --unnamed-line-spacing-25: 25px;
+    --unnamed-line-spacing-32: 32px;
+    --unnamed-line-spacing-42: 42px;
+    --unnamed-line-spacing-55: 55px;
+    --unnamed-decoration-underline: underline;
+    }
+
 * {
     margin: 0;
     padding: 0;
@@ -10,16 +41,16 @@ a {
 .main-container {
     margin: 0;
     padding: 0 60px;
-    color: #000;
 }
 /* --------------------------------------------- HEADER ---------------------------------------*/
 .header {
-    background-color: #fff;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    opacity: 1;
     display: grid;
     grid-template-columns: 200px auto 200px;
     height: 60px;
     padding: 25px 60px;
-    
+
 }
 .header .header-logo {
     display: grid;
@@ -31,7 +62,7 @@ a {
 }
 .header-logo .logo-text {
     text-transform: uppercase;
-    font-family: Lato-Regular;
+    font-family: 'Lato', sans-serif;
     font-size: 10px;
     margin-left: 10px;
 }
@@ -54,11 +85,14 @@ a {
     color: #aaa;
 }
 .header-menu-row-1-item a {
-    font-size: 14px;
-    font-family: Lato-Bold;
-    margin-right: 20px;
-    color: inherit;
-    text-decoration: none;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-900) var(--unnamed-font-size-20)/var(--unnamed-line-spacing-24) var(--unnamed-font-family-lato);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-272727);
+    text-align: left;
+    font: normal normal 900 20px/24px Lato;
+    letter-spacing: 0px;
+    color: #272727;
+    opacity: 1;
 }
 .header-menu-row-1-item a:hover {
     text-decoration: underline;
@@ -75,12 +109,12 @@ a {
     background-color: #fff;
     z-index: 600;
 
-    font-family: Lato-Regular;
+    font-family: 'Lato', sans-serif;
     font-size: 11px;
     padding-top: 30px;
     box-sizing: border-box;
 
-    
+
 }
 
 
@@ -152,7 +186,7 @@ a {
 }
 .header-menu-row-2-item > a {
     font-size: 11px;
-    font-family: Lato-Regular;
+    font-family: 'Lato', sans-serif;
     margin-right: 20px;
     color: inherit;
     text-decoration: none;
@@ -169,18 +203,18 @@ a {
 }
 .header-slogan-row-1-item {
     font-size: 15px;
-    font-family: Lato-Regular;
+    font-family: 'Lato', sans-serif;
 }
 .header-slogan-row-1 .cart-amount {
     font-size: 14px;
-    font-family: Lato-Regular;
+    font-family: 'Lato', sans-serif;
 }
 .header-slogan-row-1  i {
     margin-left: 10px;
 }
 .header-slogan-row-2 {
     font-size: 13px;
-    font-family: Lato-Regular;
+    font-family: 'Lato', sans-serif;;
     color: #de0d1f;
     display: grid;
     grid-template-columns: auto;
@@ -226,11 +260,11 @@ a {
     align-content: space-between;
 }
 .slider .slider-card .slider-card-text-big {
-    font-family: Lato-Regular;
+    font-family: 'Lato', sans-serif;
     font-size: 32px;
 }
 .slider .slider-card .slider-card-text-small {
-    font-family: Lato-Bold;
+    font-family: 'Lato', sans-serif;
     font-style: italic;
     color: #de0d1f;
     font-size: 13px;
@@ -255,7 +289,7 @@ a {
     align-content: center;
 }
 .images-and-accordions .accordion .accordion-header {
-    font-family: Lato-Bold;
+    font-family: 'Lato', sans-serif;
     font-size: 14px;
 }
 .images-and-accordions .accordion .accordion-header:hover {
@@ -280,7 +314,7 @@ a {
     height: 0;
     color: #272727;
     background-color: #fff;
-    font-family: Lato-Regular;
+    font-family: 'Lato', sans-serif;
     font-size: 0px;
     padding: 0 30px;
     line-height: 20px;
@@ -296,7 +330,8 @@ a {
     text-decoration: none;
     color: #de0d1f;
     font-style: italic;
-    font-family: Lato-Bold;
+    font-family: 'Lato', sans-serif;
+
 }
 .images-and-accordions .accordion-container p a {
     color: inherit;
@@ -444,7 +479,7 @@ a {
 }
 
 .destacados-content {
-    display: grid; 
+    display: grid;
     grid-template-columns: repeat(4, auto);
     grid-gap: 30px;
     justify-content: space-between;
@@ -582,7 +617,7 @@ a {
 }
 @media only screen and (max-width: 1040px) {
     .footer {
-    
+
         grid-template-columns: repeat(5, auto);
         grid-column-gap: 20px;
     }
@@ -619,7 +654,7 @@ a {
     background-color: #de0d1f;
     color: #fff;
     font-family: Lato-Bold;
-    
+
     display: grid;
     grid-template-columns: auto 40% auto;
     justify-content: space-between;
