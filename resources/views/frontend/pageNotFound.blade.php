@@ -13,6 +13,7 @@
 
     <link rel="stylesheet" href="css/fonts.css">
 
+    <link rel="stylesheet" href="{{ URL::asset('css/style.css') }}">
     <link rel="stylesheet" href="{{ URL::asset('css/estilo.css') }}">
     <!--<link rel="stylesheet" href="css/accordion.css">-->
 
@@ -24,8 +25,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="novedades">
-    @include('frontend\common\header')
-
-
+<body class="page-not-found">
+    @include('/layoutsWeb/header')
+        <h1 class="title-not-found">Pagina no encontrada</h1>
+        <p class="parrafo-not-found">
+            Ups! El contenido que estás buscando no existe o no está disponible en este momento, por favor asegúrate de haber ingresado correctamente los parámetros de búsqueda.
+        </p>
+    @include('/layoutsWeb/footer')
 </body>
