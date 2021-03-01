@@ -28,5 +28,9 @@ class WebController extends Controller
     public function showPageNotFound(){
         return view('frontend.pageNotFound');
     }
+    public function showCookie(){
+        return view('frontend.cookies');
+    }
+
 
 }
