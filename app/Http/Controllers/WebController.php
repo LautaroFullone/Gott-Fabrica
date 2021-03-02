@@ -31,6 +31,9 @@ class WebController extends Controller
     public function showCookie(){
         return view('frontend.cookies');
     }
+    public function protect(){
+        return view('frontend.protect');
+    }
 
 
 }

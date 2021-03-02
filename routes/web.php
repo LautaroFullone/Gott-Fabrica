@@ -26,3 +26,5 @@ Route::get('/novedades/{id}','WebController@showNovedadesDetalle')->name('noveda
 Route::get('/pageNotFound','WebController@showPageNotFound')->name('notFound');
 
 Route::get('/cookie','WebController@showCookie')->name('cookie');
+
+Route::get('/protect','WebController@protect')->name('protect');
