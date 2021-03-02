@@ -28,3 +28,7 @@ Route::get('/pageNotFound','WebController@showPageNotFound')->name('notFound');
 Route::get('/cookie','WebController@showCookie')->name('cookie');
 
 Route::get('/protect','WebController@protect')->name('protect');
+
+Route::get('/terminos','WebController@terminos')->name('terminos');
+
+Route::get('/terminado','WebController@terminado')->name('terminado');

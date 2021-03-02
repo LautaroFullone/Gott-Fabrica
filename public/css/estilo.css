@@ -25,60 +25,21 @@
 --unnamed-line-spacing-55: 55px;
 --unnamed-decoration-underline: underline;
 }
+body{
+    background-color: #F3F3F3;
+}
 /* --------------------------------------------------------------------------------------------------*/
 /* --------------------------------------------------------------------------------------------------*/
-/* ----------------------------------------pag 20------------------------------------------------*/
+/* ----------------------------------------pag 21/20/19------------------------------------------------*/
 /* --------------------------------------------------------------------------------------------------*/
 /* --------------------------------------------------------------------------------------------------*/
 
-.protect{
-    background: var(--unnamed-color-f3f3f3) 0% 0% no-repeat padding-box;
-    background: #F3F3F3 0% 0% no-repeat padding-box;
-    opacity: 1;
-}
-.protect-content{
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-32) var(--unnamed-font-family-lato);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-272727);
-    text-align: left;
-    font: normal normal normal 16px/32px Lato;
-    letter-spacing: 0px;
-    color: #272727;
-    opacity: 1;
-    margin-left: 50px;
-}
-.protect-title{
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-900) var(--unnamed-font-size-20)/var(--unnamed-line-spacing-24) var(--unnamed-font-family-lato);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-272727);
-    text-align: left;
-    font: normal normal 900 20px/24px Lato;
-    letter-spacing: 0px;
-    color: #272727;
-    opacity: 1;
-    margin-left: 60px;
-}
 
-/* --------------------------------------------------------------------------------------------------*/
-/* --------------------------------------------------------------------------------------------------*/
-/* ----------------------------------------pag 21------------------------------------------------*/
-/* --------------------------------------------------------------------------------------------------*/
-/* --------------------------------------------------------------------------------------------------*/
-
-.cookie{
-    background: var(--unnamed-color-f3f3f3) 0% 0% no-repeat padding-box;
-    background: #F3F3F3 0% 0% no-repeat padding-box;
-    opacity: 1;
-    top: 186px;
-    left: 0px;
-    width: 100%;
-    height: 500px;
-
+.contenedor{
+    margin: auto;
+    width: 95%;
 }
-.content-cookie{
-    margin-left: 50px;
-}
-.title-cookie{
+.contenedor-titulo{
     text-align: left;
     font: normal normal 900 20px/24px Lato;
     letter-spacing: 0px;
@@ -86,7 +47,7 @@
     opacity: 1;
     margin-left: 10px;
 }
-.parrafo{
+.contenedor-parrafo{
     text-align: left;
     font: normal normal normal 16px/32px Lato;
     letter-spacing: 0px;
@@ -96,22 +57,17 @@
     margin:10px;
 }
 
+
 /* --------------------------------------------------------------------------------------------------*/
 /* --------------------------------------------------------------------------------------------------*/
-/* ----------------------------------------pag 22------------------------------------------------*/
+/* ----------------------------------------pag 22/18------------------------------------------------*/
 /* --------------------------------------------------------------------------------------------------*/
 /* --------------------------------------------------------------------------------------------------*/
-.page-not-found{
+.contenido{
     background: var(--unnamed-color-f3f3f3) 0% 0% no-repeat padding-box;
     background: #F3F3F3 0% 0% no-repeat padding-box;
-    opacity: 1;
-    top: 186px;
-    left: 0px;
-    width: 100%;
-    height: 500px;
-
 }
-.title-not-found{
+.contenido-titulo{
     font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-900) var(--unnamed-font-size-35)/var(--unnamed-line-spacing-42) var(--unnamed-font-family-lato);
     letter-spacing: var(--unnamed-character-spacing-0);
     color: var(--unnamed-color-272727);
@@ -123,10 +79,7 @@
     margin:150px 0 30px 0;
 
 }
-.parrafo-not-found{
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-20)/var(--unnamed-line-spacing-24) var(--unnamed-font-family-lato);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-272727);
+.contenido-parrafo{
     text-align: center;
     font: normal normal normal 20px/24px Lato;
     letter-spacing: 0px;

@@ -34,6 +34,12 @@ class WebController extends Controller
     public function protect(){
         return view('frontend.protect');
     }
+    public function terminos(){
+        return view('frontend.terminos');
+    }
+    public function terminado(){
+        return view('frontend.terminado');
+    }
 
 
 }

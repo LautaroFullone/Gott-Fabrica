@@ -27,9 +27,9 @@
 
 <body class="contenido">
     @include('/layoutsWeb/header')
-        <h1 class="contenido-titulo">Pagina no encontrada</h1>
+        <h1 class="contenido-titulo">¡Hemos Terminado!</h1>
         <p class="contenido-parrafo">
-            Ups! El contenido que estás buscando no existe o no está disponible en este momento, por favor asegúrate de haber ingresado correctamente los parámetros de búsqueda.
+            Gracias, pronto un asesor de ventas se contactará. Si te surge alguna otra duda o consulta no dudes en contactarte con nosotros, estamos para ayudarte.
         </p>
     @include('/layoutsWeb/footer')
 </body>
