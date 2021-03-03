@@ -1,4 +1,4 @@
-<div class="footer">
+<div class="footer" >
     <div class="footer-logo">
         <img src="/images/logo.png" alt="">
         <div class="logo-text">Fábrica<br>de sillas<br>boutique</div>
