@@ -9,14 +9,14 @@
 
   <div class="destacados-content">
     <div id="destacados-slider" class="owl-carousel">
-      <img src="images/silla-ariel.jpg" alt="">
-      <img src="images/silla-normandy.jpg" alt="">
-      <img src="images/sillon-nino.jpg" alt="">
-      <img src="images/silla-pedro.jpg" alt="">
-      <img src="images/silla-ariel.jpg" alt="">
-      <img src="images/silla-normandy.jpg" alt="">
-      <img src="images/sillon-nino.jpg" alt="">
-      <img src="images/silla-pedro.jpg" alt="">
+      <img src="images/sillas/silla-ariel.jpg" alt="">
+      <img src="images/sillas/silla-normandy.jpg" alt="">
+      <img src="images/sillas/sillon-nino.jpg" alt="">
+      <img src="images/sillas/silla-pedro.jpg" alt="">
+      <img src="images/sillas/silla-ariel.jpg" alt="">
+      <img src="images/sillas/silla-normandy.jpg" alt="">
+      <img src="images/sillas/sillon-nino.jpg" alt="">
+      <img src="images/sillas/silla-pedro.jpg" alt="">
     </div>
   </div>
 </div>

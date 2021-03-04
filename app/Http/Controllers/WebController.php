@@ -62,7 +62,9 @@ class WebController extends Controller
     public function showFabricaBoutique(){
         return view('frontend.fabrica-boutique');
     }
-
+    public function showColaboradores(){
+        return view('frontend.colaboradores');
+    }
 
 
 

@@ -46,3 +46,5 @@ Route::get('/terminado','WebController@terminado')->name('terminado');
 Route::get('/disenos','WebController@showDisenos')->name('disenos');
 
 Route::get('/legado','WebController@showLegado')->name('legado');
+
+Route::get('/colaboradores','WebController@showColaboradores')->name('colaboradores');

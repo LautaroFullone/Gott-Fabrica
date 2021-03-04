@@ -1,7 +1,7 @@
 :root {
     --unnamed-color-e6e3de: #E6E3DE;
     --pagina-rojo: #DE0D1F;
-    --pagina-gris: #cecdcd;
+    --pagina-gris: #dfdfdf;
     --pagina-blanco: #FFFFFF;
     --unnamed-color-272727: #272727;
 
@@ -110,6 +110,7 @@ body{
 .titulo{
     font-weight: bold;
 }
+
 
 /*--------------------PAGINA 6--------------------*/
 
@@ -570,6 +571,45 @@ body{
     background-color: var(--pagina-gris);
 }
 
+
+/*----------------PAGINA 13---------------*/
+/*----------------PAGINA 14---------------*/
+.grilla-colaboradores{
+    display: grid;
+    grid-gap: 40px;
+
+    border: 1px solid #13a153;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,minmax(150px,auto));
+
+}
+
+.grilla-disenador{
+    display: grid;
+    grid-gap: 10px;
+    border: 1px solid #a13b13;
+
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 40px 1fr 20px;
+
+    grid-template-areas: "foto   arriba"
+                         "foto   contenido"
+                         "foto   footer";
+
+}
+
+.grilla-disenador .foto{
+    grid-area: foto ;
+    background-color: var(--pagina-blanco);
+}
+
+.grilla-disenador .arriba{
+    grid-area: arriba ;
+}
+
+.grilla-disenador .contenido{
+    grid-area: contenido ;
+}
 
 
 
