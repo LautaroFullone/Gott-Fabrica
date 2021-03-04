@@ -95,9 +95,9 @@
             </div>
 
             <div class="widget">
-                <div class="titulo">
+                <h4 class="titulo">
                     Queremos conocer tus metas <br> y seguir en contacto
-               </div>
+                </h4>
                 <br>
                <a class="btn btn-gott">Contactar</a>
 

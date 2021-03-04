@@ -1,7 +1,6 @@
 :root {
-    --unnamed-color-2727271a: #272727;
     --unnamed-color-e6e3de: #E6E3DE;
-    --unnamed-color-de0d1f: #DE0D1F;
+    --pagina-rojo: #DE0D1F;
     --pagina-gris: #cecdcd;
     --pagina-blanco: #FFFFFF;
     --unnamed-color-272727: #272727;
@@ -124,6 +123,7 @@ body{
     grid-template-areas: "texto imagen imagen"
                          "texto imagen imagen";
 }
+
 
 .grilla-proyectos .proyectos-texto{
     grid-area: texto;
@@ -293,7 +293,7 @@ body{
     list-style: inside;
 }
 
-.grilla-contract .widget{
+.widget{
     grid-area: widget;
     text-align: center;
 }
@@ -409,13 +409,169 @@ body{
     display: grid;
     grid-gap: 20px;
 
-    grid-template-columns: 1fr 300px;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(2,minmax(200px,auto));
 
 
-    grid-template-areas: "imagen  imagen "
-                         "texto   logo  ";
+    grid-template-areas: "imagen   imagen "
+                         "texto    texto  ";
+}
 
+.grilla-legado-1 .imagen{
+    grid-area: imagen;
+}
+
+.grilla-legado-1 .texto{
+    grid-area: texto;
+    grid-gap: 20px;
+
+    display: grid;
+    grid-template-columns: 1fr 150px;
+    grid-template-areas: "parrafo   logo"
+}
+
+.grilla-legado-1 .texto .parrafo{
+    grid-area: parrafo;
+}
+
+.grilla-legado-1 .texto .logo{
+    grid-area: logo;
+    align-self: center;
+    text-align: left;
+    font-size: 25px;
+    color: var(--pagina-rojo);
+    text-transform: uppercase;
+}
+
+.grilla-legado-1 .texto .logo .titulo{
+    color: #272727;
+}
+
+.grilla-legado-2{
+    display: grid;
+    grid-gap: 20px;
+
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2,minmax(200px,auto));
+
+    grid-template-areas: "foto-1   foto-2   foto-3   foto-4 "
+                         "texto-1  texto-1  texto-2  texto-2 ";
 
 }
+
+.grilla-legado-2 .foto-1{
+    grid-area: foto-1;
+    background-color: var(--pagina-gris);
+}
+.grilla-legado-2 .foto-2{
+    grid-area: foto-2;
+    background-color: var(--pagina-gris);
+
+}
+.grilla-legado-2 .foto-3{
+    grid-area: foto-3;
+    background-color: var(--pagina-gris);
+
+}
+.grilla-legado-2 .foto-4{
+    grid-area: foto-4;
+    background-color: var(--pagina-gris);
+
+}
+
+.grilla-legado-2 .texto-1{
+    grid-area: texto-1;
+
+}
+
+.grilla-legado-2 .texto-1 .imagen{
+    height: 350px;
+    width: 100%;
+    background-color: var(--pagina-gris);
+}
+
+.grilla-legado-2 .texto-2{
+    grid-area: texto-2;
+}
+
+/*----------------PAGINA 12---------------*/
+
+.grilla-boutique-1{
+    display: grid;
+    grid-gap: 20px;
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2,minmax(200px,auto));
+
+
+    grid-template-areas: "imagen   imagen "
+                         "texto-1  texto-2  ";
+}
+
+.grilla-boutique-1 .imagen{
+    grid-area: imagen;
+}
+
+.grilla-boutique-1 .texto-1{
+    grid-area: texto-1;
+}
+.grilla-boutique-1 .texto-2{
+    grid-area: texto-2;
+    padding-top:40px ;
+}
+
+.grilla-boutique-2{
+    display: grid;
+    grid-gap: 20px;
+
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,minmax(150px,auto));
+
+
+    grid-template-areas: "foto-1   foto-2   foto-3  foto-4"
+                         "foto-5   foto-6   foto-7  foto-8 "
+                         "widget   widget   widget  widget";
+}
+
+.grilla-boutique-2 .widget{
+    grid-area: widget;
+    padding-top: 20px;
+}
+.grilla-boutique-2 .foto-1{
+    grid-area: foto-1;
+    background-color: var(--pagina-gris);
+}
+.grilla-boutique-2 .foto-2{
+    grid-area: foto-2;
+    background-color: var(--pagina-gris);
+}
+.grilla-boutique-2 .foto-3{
+    grid-area: foto-3;
+    background-color: var(--pagina-gris);
+}
+.grilla-boutique-2 .foto-4{
+    grid-area: foto-4;
+    background-color: var(--pagina-gris);
+}
+.grilla-boutique-2 .foto-5{
+    grid-area: foto-5;
+    background-color: var(--pagina-gris);
+}
+.grilla-boutique-2 .foto-6{
+    grid-area: foto-6;
+    background-color: var(--pagina-gris);
+}
+.grilla-boutique-2 .foto-7{
+    grid-area: foto-7;
+    background-color: var(--pagina-gris);
+}
+.grilla-boutique-2 .foto-8{
+    grid-area: foto-8;
+    background-color: var(--pagina-gris);
+}
+
+
+
+
+
 

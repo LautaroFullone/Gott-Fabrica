@@ -39,6 +39,8 @@ Route::get('/protect','WebController@protect')->name('protect');
 
 Route::get('/terminos','WebController@terminos')->name('terminos');
 
+Route::get('/fabrica-boutique','WebController@showFabricaBoutique')->name('fabrica-boutique');
+
 Route::get('/terminado','WebController@terminado')->name('terminado');
 
 Route::get('/disenos','WebController@showDisenos')->name('disenos');

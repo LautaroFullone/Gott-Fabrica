@@ -6,15 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>GOTT</title>
 
-    
+
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <script src='js/accordion.js'></script>
-    
-    
+
+
     <link rel="stylesheet" href="css/fonts.css">
-    
+
     <link rel="stylesheet" href="css/style.css">
-    <!--<link rel="stylesheet" href="css/accordion.css">-->
+    <link rel="stylesheet" href="css/accordion.css">
 
     <!-- font-awesome css -->
     <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -32,7 +32,7 @@
     <div class="main-container">
 
 
-        
+
         <div class="breadcrumb simple-text">gott / <span>empresarios</span></div>
 
         <div class="banner">
@@ -50,7 +50,7 @@
             <div class="body simple-text">Además de fabricar y comercializar nuestras <span class="subrayado">colecciones</span>, brindamos un servicio de gestión y diseño de <span class="subrayado">piezas exclusivas</span> partiendo de los requerimientos estéticos y funcionales de los proyectos de arquitectos, diseñadores y decoradores. Para agilizar la comunicación con los profesionales, enviamos la documentación técnica y confeccionamos prototipos que serán la base de la futura producción.</div>
             <img src="images/empresarios/foto3.jpg" alt="">
           </div>
-          
+
         </div>
 
         <!--Destacados Section-->
@@ -89,13 +89,13 @@
           <!--Instagram Feed Section-->
           @php include '../resources/views/frontend/common/instagram-feed.php'; @endphp
           <!--End Instagram Feed Section-->
-        
 
 
 
-        
 
-        
+
+
+
     </div>
 
     <!--Footer Section-->
