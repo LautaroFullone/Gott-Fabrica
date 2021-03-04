@@ -41,5 +41,26 @@ class WebController extends Controller
         return view('frontend.terminado');
     }
 
+    public function showProyectos(){
+        return view('frontend.proyectos');
+    }
+    public function showSumate(){
+        return view('frontend.sumate');
+    }
+    public function showReinvencion(){
+        return view('frontend.reinvencion');
+    }
+    public function showContract(){
+        return view('frontend.contract');
+    }
+    public function showDisenos(){
+        return view('frontend.disenos');
+    }
+    public function showLegado(){
+        return view('frontend.legado');
+    }
+
+
+
 
 }

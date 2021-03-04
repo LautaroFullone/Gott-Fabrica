@@ -2,7 +2,7 @@
     --unnamed-color-2727271a: #272727;
     --unnamed-color-e6e3de: #E6E3DE;
     --unnamed-color-de0d1f: #DE0D1F;
-    --pagina-gris: #F3F3F3;
+    --pagina-gris: #cecdcd;
     --pagina-blanco: #FFFFFF;
     --unnamed-color-272727: #272727;
 
@@ -108,6 +108,10 @@ body{
     background-color: var(--pagina-gris);
 }
 
+.titulo{
+    font-weight: bold;
+}
+
 /*--------------------PAGINA 6--------------------*/
 
 .grilla-proyectos{
@@ -126,15 +130,8 @@ body{
     padding: 30px;
 }
 
-.proyectos-texto .titulo{
-    letter-spacing: 0px;
-    color: #272727;
-    opacity: 1;
-    margin-bottom: 15px;
-}
-
 .proyectos-texto .parrafo{
-    font: normal normal normal 16px/32px Lato;
+    font-size:16px;
 }
 
 .grilla-proyectos .proyectos-imagen{
@@ -175,23 +172,13 @@ body{
 
 }
 
-.sumate-texto .titulo{
-    letter-spacing: 0px;
-    color: #272727;
-    opacity: 1;
-    margin-bottom: 15px;
-}
-
 .sumate-texto .parrafo{
-    font: normal normal normal 16px/32px Lato;
-    letter-spacing: 0px;
     color: #272727;
 }
 
 .sumate-texto .lista-container{
     padding: 20px;
     margin-top: 20px;
-    margin-bottom: 20px;
     background-color: var(--pagina-gris);
     font: normal normal bold 16px/32px Lato;
 }
@@ -289,13 +276,6 @@ body{
 
 }
 
-.sumate-texto .titulo{
-    letter-spacing: 0px;
-    color: #272727;
-    opacity: 1;
-    margin-bottom: 15px;
-}
-
 .sumate-texto .parrafo{
     font: normal normal normal 16px/32px Lato;
     letter-spacing: 0px;
@@ -305,7 +285,6 @@ body{
 .sumate-texto .lista-container{
     padding: 20px;
     margin-top: 20px;
-    margin-bottom: 20px;
     background-color: var(--pagina-gris);
     font: normal normal bold 16px/32px Lato;
 }
@@ -317,10 +296,6 @@ body{
 .grilla-contract .widget{
     grid-area: widget;
     text-align: center;
-}
-
-.widget .titulo{
-    font: normal normal 900 35px/42px Lato;
 }
 
 
@@ -337,4 +312,110 @@ body{
     grid-template-rows: 500px 500px;
 }
 
+
+/*--------------PAGINA 10  -------------*/
+
+.grilla-disenos-1{
+    display: grid;
+    grid-gap: 20px;
+
+    grid-template-columns: minmax(200px, 1fr) minmax(200px, 1fr);
+    grid-template-rows: minmax(200px,auto) minmax(100px,auto);
+
+    grid-template-areas: "imagen  imagen"
+                         "texto   foto ";
+
+    margin-bottom: 20px;
+}
+
+.grilla-disenos-1 .imagen{
+    grid-area: imagen;
+}
+
+.imagen img{
+    width: 100%;
+}
+
+.grilla-disenos-1 .texto{
+    grid-area: texto;
+}
+
+.parrafo{
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.grilla-disenos-1 .foto{
+    grid-area: foto;
+    background: var(--pagina-gris);
+    margin: 20px;
+}
+
+.contenido .grilla-disenos-2{
+    display: grid;
+    grid-gap: 20px;
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: minmax(200px,auto) minmax(200px,auto);
+
+
+    grid-template-areas: "imagen-1  imagen-2  imagen-3 "
+                         "texto-1   texto-2   texto-3 ";
+
+    margin-bottom: 20px;
+}
+
+.grilla-disenos-2 .imagen-1{
+    grid-area: imagen-1;
+    background-color: var(--pagina-gris);
+}
+
+.grilla-disenos-2 .imagen-2{
+    grid-area: imagen-2;
+    background-color: var(--pagina-gris);
+}
+
+.grilla-disenos-2 .imagen-3{
+    grid-area: imagen-3;
+    background-color: var(--pagina-gris);
+}
+
+.imagen-1, .imagen-2, .imagen-3 img{
+    width: 100%;
+}
+
+.grilla-disenos-2 .texto-1{
+    grid-area: texto-1;
+}
+
+.grilla-disenos-2 .texto-2{
+    grid-area: texto-2;
+}
+
+.grilla-disenos-2 .texto-3{
+    grid-area: texto-3;
+}
+
+.grilla-disenos-2 .parrafo{
+    grid-area: texto-3;
+    font-size: 13px;
+    font-weight: 15px;
+}
+
+/*----------------PAGINA 11---------------*/
+
+
+.grilla-legado-1{
+    display: grid;
+    grid-gap: 20px;
+
+    grid-template-columns: 1fr 300px;
+    grid-template-rows: repeat(2,minmax(200px,auto));
+
+
+    grid-template-areas: "imagen  imagen "
+                         "texto   logo  ";
+
+
+}
 

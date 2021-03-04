@@ -8,6 +8,8 @@
  */
 
 :root {
+  --colorGott: #DE0D1F;
+  --colorGottOscuro: #b11623;
   --blue: #3490dc;
   --indigo: #6574cd;
   --purple: #9561e2;
@@ -41,7 +43,7 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+
 }
 
 html {
@@ -2674,6 +2676,47 @@ a.btn.disabled,
 fieldset:disabled a.btn {
   pointer-events: none;
 }
+
+.btn-gott {
+    color: #fff;
+    background-color: var(--colorGott);
+    border-color: var(--colorGott);
+  }
+
+  .btn-gott:hover {
+    color: #fff;
+    background-color: var(--colorGottOscuro);
+    border-color: var(--colorGottOscuro);
+  }
+
+  .btn-gott:focus,
+  .btn-gott.focus {
+    color: #fff;
+    background-color: var(--colorGotOscuro);
+    border-color: var(--colorGotOscuro);
+    box-shadow: 0 0 0 0.2rem var(--colorGotOscuro);
+  }
+
+  .btn-gott.disabled,
+  .btn-gott:disabled {
+    color: #fff;
+    background-color: var(--colorGot);
+    border-color: var(--colorGot);
+  }
+
+  .btn-gott:not(:disabled):not(.disabled):active,
+  .btn-gott:not(:disabled):not(.disabled).active,
+  .show > .btn-gott.dropdown-toggle {
+    color: #fff;
+    background-color: var(--colorGottOscuro);
+    border-color: var(--colorGottOscuro);
+  }
+
+  .btn-gott:not(:disabled):not(.disabled):active:focus,
+  .btn-gott:not(:disabled):not(.disabled).active:focus,
+  .show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem var(--colorGottOscuro);;
+  }
 
 .btn-primary {
   color: #fff;

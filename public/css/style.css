@@ -584,8 +584,8 @@ a {
     font-family: Lato-Regular;
     font-size: 12px;
     display: grid;
-    align-content: space-between;
-    grid-row-gap: 8px;
+
+
 }
 .footer .authors {
     font-family: Lato-Regular;

@@ -25,6 +25,14 @@ Route::get('/novedades/{id}','WebController@showNovedadesDetalle')->name('noveda
 
 Route::get('/pageNotFound','WebController@showPageNotFound')->name('notFound');
 
+Route::get('/proyectos','WebController@showProyectos')->name('proyectos');
+
+Route::get('/sumate','WebController@showSumate')->name('sumate');
+
+Route::get('/reinvencion', 'WebController@showReinvencion')->name('reinvencion');
+
+Route::get('/contract', 'WebController@showContract')->name('contract');
+
 Route::get('/cookie','WebController@showCookie')->name('cookie');
 
 Route::get('/protect','WebController@protect')->name('protect');
@@ -32,3 +40,7 @@ Route::get('/protect','WebController@protect')->name('protect');
 Route::get('/terminos','WebController@terminos')->name('terminos');
 
 Route::get('/terminado','WebController@terminado')->name('terminado');
+
+Route::get('/disenos','WebController@showDisenos')->name('disenos');
+
+Route::get('/legado','WebController@showLegado')->name('legado');

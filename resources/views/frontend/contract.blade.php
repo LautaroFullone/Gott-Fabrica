@@ -14,8 +14,8 @@
     <link rel="stylesheet" href="css/fonts.css">
 
     <link rel="stylesheet" href="{{ URL::asset('css/style.css') }}">
-    <link rel="stylesheet" href="{{ URL::asset('css/estilo.css') }}">
     <link rel="stylesheet" href="{{ URL::asset('css/estilosLau.css') }}">
+    <link rel="stylesheet" href="{{ URL::asset('css/app.css') }}">
     <!--<link rel="stylesheet" href="css/accordion.css">-->
 
     <!-- font-awesome css -->
@@ -98,8 +98,9 @@
                 <div class="titulo">
                     Queremos conocer tus metas <br> y seguir en contacto
                </div>
-               <div class="boton">
-                contactar
+                <br>
+               <a class="btn btn-gott">Contactar</a>
+
             </div>
 
             </div>

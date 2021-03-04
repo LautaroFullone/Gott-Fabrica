@@ -14,9 +14,8 @@
     <link rel="stylesheet" href="css/fonts.css">
 
     <link rel="stylesheet" href="{{ URL::asset('css/style.css') }}">
-    <link rel="stylesheet" href="{{ URL::asset('css/estilo.css') }}">
     <link rel="stylesheet" href="{{ URL::asset('css/estilosLau.css') }}">
-    <!--<link rel="stylesheet" href="css/accordion.css">-->
+
 
     <!-- font-awesome css -->
     <link rel="stylesheet" href="{{ URL::asset ('css/font-awesome.min.css') }}">
