@@ -6,15 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>GOTT</title>
 
-    
+
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <script src='js/accordion.js'></script>
-    
-    
+
+
     <link rel="stylesheet" href="css/fonts.css">
-    
+
     <link rel="stylesheet" href="css/style.css">
-    <!--<link rel="stylesheet" href="css/accordion.css">-->
+    <link rel="stylesheet" href="{{ URL::asset('css/estilosLau.css') }}">
+    >
 
     <!-- font-awesome css -->
     <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -36,7 +37,7 @@
           <div class="promo-container">
             <img src="images/cyber-week.png" alt="">
           </div>
-  
+
           <div class="search-section">
             <div class="search-title">Encontrá tu producto</div>
             <div class="search-bar">
@@ -44,7 +45,7 @@
             </div>
             <div class="sort-by">Ordenar por</div>
           </div>
-  
+
           <div class="shipping-section">
             <div class="breadcrumb">gott / tienda / <span>todos</span></div>
             <div class="shipping-items">
@@ -54,7 +55,7 @@
                   <div>Pagá con crédito y débito</div>
                   <div><a href="" class="link">Ver opciones</a></div>
                 </div>
-                
+
               </div>
               <div class="item-2">
                 <i class='fas fa-store'></i>
@@ -62,7 +63,7 @@
                   <div>Cómo retirar mi producto</div>
                   <div><a href="" class="link">Ver opciones</a></div>
                 </div>
-                
+
               </div>
               <div class="item-3">
                 <i class='fas fa-truck'></i>
@@ -97,14 +98,13 @@
 
 
 
-        
 
-        
+
+
     </div>
 
     <!--Footer Section-->
-      @php include '../resources/views/frontend/common/footer.php'; @endphp
-    <!--End Footer Section-->
+    @include('layoutsWeb.footer')    <!--End Footer Section-->
 
 <script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
 <script type="text/javascript">

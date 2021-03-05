@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,23 +7,24 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>GOTT</title>
 
-    
-    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
-    <script src='js/accordion.js'></script>
-    
-    
-    <link rel="stylesheet" href="css/fonts.css">
-    
-    <link rel="stylesheet" href="css/style.css">
-    <!--<link rel="stylesheet" href="css/accordion.css">-->
-
     <!-- font-awesome css -->
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{ URL::asset ('css/font-awesome.min.css') }}">
 
+    <script src="https://kit.fontawesome.com/fdbba8c2bf.js" crossorigin="anonymous"></script>
+    <script src='js/accordion.js'></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{ URL::asset('css/style.css') }}">
+    <link rel="stylesheet" href="{{ URL::asset('css/estilosLau.css') }}">
+    <link rel="stylesheet" href="{{ URL::asset('css/estilo.css') }}">
+    <link rel="stylesheet" href="{{ URL::asset('css/app.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css" crossorigin="anonymous" />
+
     <script src="https://code.jquery.com/jquery-1.12.4.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js" crossorigin="anonymous"></script>
 </head>
+
 
 
 <body id="profesionales">
@@ -32,7 +34,7 @@
     <div class="main-container">
 
 
-        
+
         <div class="breadcrumb simple-text">gott / <span>profesionales</span></div>
 
         <div class="banner">
@@ -50,9 +52,9 @@
             <div class="body simple-text">La integridad es el valor que orienta nuestras decisiones en el proceso de diseño de cada colección. Elegimos especializarnos en la fabricación con madera maciza porque comprobamos que es el mejor material para construir un producto noble como la silla. Además asumimos un compromiso bioresponsable y seleccionamos especialmente cada insumo para la manufactura de nuestros artículos. Si querés aprender más sobre el rubro, seguí la guía de <span class="subrayado">nuestros especialistas</span>.</div>
             <img src="images/profesionales/foto1.jpg" alt="">
           </div>
-          
+
         </div>
-        
+
         <div class="lanzamientos-section">
           <div class="title">Lanzamientos</div>
           <div class="lanzamientos-content">
@@ -94,18 +96,17 @@
           <!--Instagram Feed Section-->
           @php include '../resources/views/frontend/common/instagram-feed.php'; @endphp
           <!--End Instagram Feed Section-->
-        
 
 
 
-        
 
-        
+
+
+
     </div>
 
     <!--Footer Section-->
-      @php include '../resources/views/frontend/common/footer.php'; @endphp
-    <!--End Footer Section-->
+    @include('layoutsWeb.footer')    <!--End Footer Section-->
 
 <script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
 <script type="text/javascript">

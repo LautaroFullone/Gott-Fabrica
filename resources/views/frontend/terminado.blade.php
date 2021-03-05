@@ -15,7 +15,8 @@
 
     <link rel="stylesheet" href="{{ URL::asset('css/style.css') }}">
     <link rel="stylesheet" href="{{ URL::asset('css/estilo.css') }}">
-    <link rel="stylesheet" href="{{ URL::asset('css/estilo.css') }}">
+    <link rel="stylesheet" href="{{ URL::asset('css/estilosLau.css') }}">
+
     <!--<link rel="stylesheet" href="css/accordion.css">-->
 
     <!-- font-awesome css -->
@@ -33,5 +34,4 @@
             Gracias, pronto un asesor de ventas se contactará. Si te surge alguna otra duda o consulta no dudes en contactarte con nosotros, estamos para ayudarte.
         </p>
 
-    @include('/layoutsWeb/footer')
-</body>
+        @include('layoutsWeb.footer')</body>

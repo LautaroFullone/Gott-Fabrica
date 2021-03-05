@@ -6,13 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>GOTT</title>
 
-    
+
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <script src='js/accordion.js'></script>
-    
-    
+
+
     <link rel="stylesheet" href="/css/fonts.css">
-    
+    <link rel="stylesheet" href="{{ URL::asset('css/estilosLau.css') }}">
+
     <link rel="stylesheet" href="/css/style.css">
     <!--<link rel="stylesheet" href="css/accordion.css">-->
 
@@ -93,11 +94,10 @@
 
 
 
-    
+
 
     <!--Footer Section-->
-      @php include '../resources/views/frontend/common/footer.php'; @endphp
-    <!--End Footer Section-->
+    @include('layoutsWeb.footer')    <!--End Footer Section-->
 
 <script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
 <script type="text/javascript">

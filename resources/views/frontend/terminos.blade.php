@@ -15,7 +15,8 @@
 
     <link rel="stylesheet" href="{{ URL::asset('css/style.css') }}">
     <link rel="stylesheet" href="{{ URL::asset('css/estilo.css') }}">
-    <!--<link rel="stylesheet" href="css/accordion.css">-->
+    <link rel="stylesheet" href="{{ URL::asset('css/estilosLau.css') }}">
+
 
     <!-- font-awesome css -->
     <link rel="stylesheet" href="{{ URL::asset ('css/font-awesome.min.css') }}">
@@ -36,5 +37,4 @@
     <p class="contenedor-parrafo">Maecenas fringilla orci lacinia purus vulputate sollicitudin. Nam erat mauris, porta ut purus id, posuere eleifend mi. Sed eget commodo lorem, ut scelerisque justo. Pellentesque bibendum metus consectetur lobortis dapibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi sit amet viverra eros. Pellentesque condimentum et massa at mattis. Vestibulum vel odio gravida, fermentum augue ac, vestibulum dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;</p>
     <p class="contenedor-parrafo">Ut lacinia risus vel faucibus egestas. Integer in vehicula mi, gravida malesuada risus. Mauris nec arcu condimentum, varius mauris eu, efficitur augue. Fusce ornare pulvinar dui eu rhoncus. Sed vestibulum dapibus nunc. Phasellus quis erat eget mi viverra malesuada at vel ex. Nullam ullamcorper a orci maximus facilisis. Cras nisi erat, pharetra eget bibendum vitae, euismod eget nisi. Nulla porttitor dolor nec leo dignissim, sit amet cursus tellus iaculis.</p>
 </div>
-    @include('/layoutsWeb/footer')
-</body>
+@include('layoutsWeb.footer')</body>

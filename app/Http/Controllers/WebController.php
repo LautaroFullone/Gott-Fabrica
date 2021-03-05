@@ -59,6 +59,9 @@ class WebController extends Controller
     public function showLegado(){
         return view('frontend.legado');
     }
+    public function showColecciones(){
+        return view('frontend.colecciones');
+    }
     public function showFabricaBoutique(){
         return view('frontend.fabrica-boutique');
     }

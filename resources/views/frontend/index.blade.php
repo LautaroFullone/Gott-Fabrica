@@ -6,19 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>GOTT</title>
 
-    
+
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <script src='js/accordion.js'></script>
-    
-    
+
     <link rel="stylesheet" href="css/fonts.css">
-    
+    <link rel="stylesheet" href="{{ URL::asset('css/estilosLau.css') }}">
     <link rel="stylesheet" href="css/style.css">
-    <!--<link rel="stylesheet" href="css/accordion.css">-->
 
-    <!-- font-awesome css -->
     <link rel="stylesheet" href="css/font-awesome.min.css">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css" crossorigin="anonymous" />
     <script src="https://code.jquery.com/jquery-1.12.4.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js" crossorigin="anonymous"></script>
@@ -135,10 +131,10 @@
 
         </div>
 
-        
-        
 
-        
+
+
+
         <div class="elegir-producto">
             <p class="title">¿Cómo elegir el producto?</p>
             <p class="body">La integridad es el valor que orienta nuestras decisiones en el proceso de diseño de cada colección. Elegimos especializarnos en la fabricación con madera maciza porque comprobamos que es el mejor material para construir un producto noble como la silla. Además asumimos un compromiso bioresponsable y seleccionamos especialmente cada insumo para la manufactura de nuestros artículos. Si querés aprender más sobre el rubro, seguí la guía de nuestros especialistas.</p>
@@ -148,12 +144,11 @@
         <!--Instagram Feed Section-->
         @php include '../resources/views/frontend/common/instagram-feed.php'; @endphp
         <!--End Instagram Feed Section-->
-        
+
     </div>
 
     <!--Footer Section-->
-      @php include '../resources/views/frontend/common/footer.php'; @endphp
-    <!--End Footer Section-->
+    @include('layoutsWeb.footer')    <!--End Footer Section-->
 
 <script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
 <script type="text/javascript">
@@ -180,7 +175,7 @@ $(document).ready(function() {
         autoPlay: true,
         loop: false
     })
-    
+
 });
 
 

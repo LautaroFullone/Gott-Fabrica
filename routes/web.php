@@ -33,7 +33,7 @@ Route::get('/reinvencion', 'WebController@showReinvencion')->name('reinvencion')
 
 Route::get('/contract', 'WebController@showContract')->name('contract');
 
-Route::get('/cookie','WebController@showCookie')->name('cookie');
+Route::get('/cookies','WebController@showCookie')->name('cookie');
 
 Route::get('/protect','WebController@protect')->name('protect');
 
@@ -48,3 +48,5 @@ Route::get('/disenos','WebController@showDisenos')->name('disenos');
 Route::get('/legado','WebController@showLegado')->name('legado');
 
 Route::get('/colaboradores','WebController@showColaboradores')->name('colaboradores');
+
+Route::get('/colecciones','WebController@showColecciones')->name('colecciones');

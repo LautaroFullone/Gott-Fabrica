@@ -1,7 +1,7 @@
 :root {
     --unnamed-color-e6e3de: #E6E3DE;
     --pagina-rojo: #DE0D1F;
-    --pagina-gris: #dfdfdf;
+    --pagina-gris: #eeeded;
     --pagina-blanco: #FFFFFF;
     --unnamed-color-272727: #272727;
 
@@ -111,6 +111,89 @@ body{
     font-weight: bold;
 }
 
+.italic{
+    color: var(--pagina-rojo);
+    font-style: italic;
+}
+
+.gris{
+    color: gray;
+
+}
+
+
+/*--------------------FOOTER--------------------*/
+.footer-lau{
+    display: grid;
+    grid-gap: 5px;
+
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: minmax(200px,auto);
+
+    grid-template-areas: "logo  horarios  contacto  legal  redes"
+                         "datos datos datos datos datos";
+}
+.footer-lau p{
+    margin-bottom: 0px;
+}
+
+.footer-lau .logo{
+    grid-area: logo;
+    padding: 20px;
+    line-height: 15px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+
+}
+
+.footer-lau .logo img{
+    display:block;
+    width: 50%;
+    margin-bottom: 15px;
+}
+.footer-lau .horarios{
+    grid-area: horarios;
+    padding: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    line-height: 40px;
+
+}
+.footer-lau .contacto{
+    grid-area: contacto;
+    padding: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    line-height: 40px;
+}
+
+.footer-lau .legal{
+    grid-area: legal;
+    padding: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    line-height: 40px;
+}
+
+.footer-lau .redes{
+    grid-area: redes;
+    padding: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    line-height: 40px;
+}
+
+.footer-lau .redes a{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer-lau .datos{
+    grid-area: datos;
+    padding-top: 0px;
+    text-align: right;
+    font-size: 13px;
+}
 
 /*--------------------PAGINA 6--------------------*/
 
@@ -537,6 +620,8 @@ body{
 .grilla-boutique-2 .widget{
     grid-area: widget;
     padding-top: 20px;
+    height: 250px;
+    padding-top: 100px;
 }
 .grilla-boutique-2 .foto-1{
     grid-area: foto-1;
@@ -573,12 +658,89 @@ body{
 
 
 /*----------------PAGINA 13---------------*/
+
+.lista-colecciones{
+    font-size: 18px;
+    margin: 20px 0px 20px 0px;
+}
+
+.lista-colecciones a{
+    color:var(--unnamed-color-272727);
+}
+
+
+.lista-colecciones .item{
+    margin: 0px 10px 0px 10px;
+    padding-right:4px ;
+}
+
+.grilla-colecciones{
+    display: grid;
+    grid-gap: 20px;
+    margin-bottom: 20px;
+
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,minmax(150px,auto)) 20px repeat(2,minmax(150px,auto));
+
+
+    grid-template-areas: "imagen        imagen "
+                         "descripcion   especificaciones "
+                         "familia      familia "
+                         "productos     productos "
+                         "cartel-1      cartel-2";
+}
+
+.grilla-colecciones .imagen{
+    grid-area: imagen;
+    position: relative;
+}
+
+.grilla-colecciones .imagen .cartel{
+    position: absolute;
+    top:0px; left:0px;
+
+    background-color: var(--pagina-blanco);
+    height: 30px;
+
+}
+
+.grilla-colecciones .descripcion{
+    grid-area: descripcion;
+    margin-bottom: 50px;
+}
+.grilla-colecciones .especificaciones{
+    grid-area: especificaciones;
+}
+.grilla-colecciones .productos{
+    grid-area: productos;
+    display: grid;
+    grid-gap:20px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: minmax(100px, auto);
+    margin-bottom: 50px
+}
+
+.grilla-colecciones .productos img{
+    width: 100%;
+    max-height: 266px;;
+}
+
+.grilla-colecciones .cartel-1{
+    grid-area: cartel-1;
+    background-color: var(--pagina-blanco);
+    padding: 30px;
+}
+.grilla-colecciones .cartel-2{
+    grid-area: cartel-2;
+}
+
+
 /*----------------PAGINA 14---------------*/
 .grilla-colaboradores{
     display: grid;
     grid-gap: 40px;
+    margin-bottom: 40px;
 
-    border: 1px solid #13a153;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(3,minmax(150px,auto));
 
@@ -587,14 +749,13 @@ body{
 .grilla-disenador{
     display: grid;
     grid-gap: 10px;
-    border: 1px solid #a13b13;
 
     grid-template-columns: repeat(2,1fr);
-    grid-template-rows: 40px 1fr 20px;
+    grid-template-rows: 40px 1fr 30px;
 
     grid-template-areas: "foto   arriba"
                          "foto   contenido"
-                         "foto   footer";
+                         "foto   abajo";
 
 }
 
@@ -609,6 +770,21 @@ body{
 
 .grilla-disenador .contenido{
     grid-area: contenido ;
+
+}
+
+.grilla-disenador .abajo{
+    grid-area: abajo ;
+    padding-left: 0;
+
+}
+
+.circulo-1{
+    border-radius: 50%;
+    color: var(--pagina-blanco);
+    background-color: var(--pagina-rojo);
+    padding: 2px 2px 2px 4px;
+    margin-left: 10px;
 }
 
 

@@ -12,6 +12,8 @@
 
 
     <link rel="stylesheet" href="css/fonts.css">
+        <link rel="stylesheet" href="{{ URL::asset('css/estilosLau.css') }}">
+
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/accordion.css">
@@ -99,8 +101,7 @@
     </div>
 
     <!--Footer Section-->
-      @php include '../resources/views/frontend/common/footer.php'; @endphp
-    <!--End Footer Section-->
+    @include('layoutsWeb.footer')    <!--End Footer Section-->
 
 <script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
 <script type="text/javascript">
