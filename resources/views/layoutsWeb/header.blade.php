@@ -1,3 +1,4 @@
+
 <div class="header">
     <div>
       <a class="header-logo" href="/">
@@ -7,57 +8,57 @@
     </div>
     <div class="header-menu">
         <div class="header-menu-row-1">
-            <div class="header-menu-row-1-item">
+            <h5 class="titulo">
                 <a href="/empresarios">Empresarios</a>
-            </div>
-            <div class="header-menu-row-1-item">
+            </h5>
+            <h5 class="titulo">
                 <a href="/profesionales">Profesionales</a>
-            </div>
-            <div class="header-menu-row-1-item">
+            </h5>
+            <h5 class="titulo">
                 <a href="/tienda">Tienda</a>
-            </div>
+            </h5>
         </div>
         <div class="linea"></div>
         <div class="header-menu-row-2">
             <div class="header-menu-row-2">
                 <div class="header-menu-row-2-item">
                     <div class="dropdown-menu">
-                        <a href="/novedades">
+                        <a href="">
                             <div>Novedades</div>
                         </a>
-                        <a href="">
+                        <a href="{{ route('proyectos') }}">
                             <div>Proyectos</div>
                         </a>
-                        <a href="">
+                        <a href="{{ route('sumate') }}">
                             <div>Sumate a gott</div>
                         </a>
                     </div>
-                    <a href="#">Lanzamientos <i class='fas fa-sort-down'></i></a>
+                    <a href="">Lanzamientos <i class='fas fa-sort-down'></i></a>
                 </div>
                 <div class="header-menu-row-2-item">
                     <div class="dropdown-menu">
-                        <a href="">Reinvención de sillas</a>
-                        <a href="">Contract</a>
-                        <a href="">Diseños co-creados</a>
+                        <a href="{{ route('reinvencion') }}">Reinvención de sillas</a>
+                        <a href="{{ route('contract') }}">Contract</a>
+                        <a href="{{ route('disenos') }}">Diseños co-creados</a>
                     </div>
                     <a href="#">Servicios <i class='fas fa-sort-down'></i></a>
                 </div>
                 <div class="header-menu-row-2-item">
                     <div class="dropdown-menu">
-                        <a href="">Legado</a>
-                        <a href="">Fábrica boutique</a>
-                        <a href="">Sumate a gott</a>
+                        <a href="{{ route('legado') }}">Legado</a>
+                        <a href="{{ route('fabrica-boutique') }}">Fábrica boutique</a>
+                        <a href="{{ route('sumate') }}">Sumate a gott</a>
                     </div>
-                    <a href="#">Trayectoria <i class='fas fa-sort-down'></i></a>
+                    <a href="">Trayectoria <i class='fas fa-sort-down'></i></a>
                 </div>
                 <div class="header-menu-row-2-item single-link">
-                    <a href="#">Colecciones</a>
+                    <a href="{{ route('colecciones') }}">Colecciones</a>
                 </div>
                 <div class="header-menu-row-2-item single-link">
-                    <a href="#">Diseñadores</a>
+                    <a href="{{ route('colaboradores') }}">Diseñadores</a>
                 </div>
                 <div class="header-menu-row-2-item single-link">
-                    <a href="#">Atención Personalizada</a>
+                    <a href="/">Atención Personalizada</a>
                 </div>
                 <div class="header-menu-row-2-item">
                     <div class="dropdown-menu-seguinos">
@@ -65,16 +66,16 @@
                             <div class="seguinos-text">Pinterest</div>
                             <i class='fa fa-pinterest-p'></i>
                         </a>
-                        <a href="">
+                        <a href="https://www.instagram.com/sillasgott/">
                             <div class="seguinos-text">Instagram</div>
                             <i class='fa fa-instagram'></i>
                         </a>
-                        <a href="">
+                        <a href="https://www.facebook.com/gott1974/">
                             <div class="seguinos-text">Facebook</div>
                             <i class='fa fa-facebook'></i>
                         </a>
                     </div>
-                    <a href="#">Seguinos <i class='fas fa-sort-down'></i></a>
+                    <a href="">Seguinos <i class='fas fa-sort-down'></i></a>
                 </div>
             </div>
         </div>

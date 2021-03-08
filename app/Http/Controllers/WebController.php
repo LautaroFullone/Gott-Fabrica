@@ -37,8 +37,8 @@ class WebController extends Controller
     public function terminos(){
         return view('frontend.terminos');
     }
-    public function terminado(){
-        return view('frontend.terminado');
+    public function showConfirmacion(){
+        return view('frontend.confirmacion');
     }
 
     public function showProyectos(){

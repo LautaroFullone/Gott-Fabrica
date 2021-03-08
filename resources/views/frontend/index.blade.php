@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>GOTT</title>
 
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 
@@ -22,7 +23,7 @@
 
 <body id="index">
   <!--Header Section-->
-  @php include '../resources/views/frontend/common/header.php'; @endphp
+  @include('layoutsWeb.header')
   <!--End Header Section-->
     <div class="main-container">
 
@@ -32,7 +33,7 @@
                 <div class="slider-card">
                     <div class="slider-card-text-big">Creatividad y fabricación de calidad al servicio del confort.</div>
                     <a href="">
-                        <div class="slider-card-text-small">Conocé nuestras sillas Pampa</div>
+                        <div class="italic">Conocé nuestras sillas Pampa</div>
                     </a>
                 </div>
             </div>
@@ -40,7 +41,7 @@
                 <div class="slider-card">
                     <div class="slider-card-text-big">Pasión por la calidad, el diseño y el servicio.</div>
                     <a href="">
-                        <div class="slider-card-text-small">Conocé nuestras sillas Normandy</div>
+                        <div class="italic">Conocé nuestras sillas Normandy</div>
                     </a>
                 </div>
             </div>
@@ -48,7 +49,7 @@
                 <div class="slider-card">
                     <div class="slider-card-text-big">Calidez y confort para los comedores contemporáneos.</div>
                     <a href="">
-                        <div class="slider-card-text-small">Conocé nuestras sillas Queens</div>
+                        <div class="italic">Conocé nuestras sillas Queens</div>
                     </a>
                 </div>
             </div>
@@ -59,7 +60,7 @@
                 <label for="accordion-1">
                     <div class="accordion-header">
                         <i class='fas fa-plus'></i>
-                        <h5 class="titulo accordion-button-text">Renová tu hogar</h5>
+                        <h5 class="titulo">Renová tu hogar</h5>
                     </div>
                 </label>
                 <input type="checkbox" id="accordion-1" style="display: none">
@@ -67,14 +68,14 @@
                         <p>Somos una fábrica especializada en sillas y mobiliario exclusivo con más de 40 años de experiencia. <a href="">La calidad de las maderas</a> especialmente seleccionadas que utilizamos en nuestros productos, pueden convertir en un lugar especial cualquier rincón de tu hogar. Sabemos la importancia de conocer de primera mano cada detalle de una silla, por eso, abrimos al público <a href="">nuestra fábrica boutique</a> para contar la historia detrás de cada pieza que sumamos a la <a href="">tienda</a>.</p>
                         <a href="">Ver más</a>
                 </div>
-                <img src="images/sillon-curvo.png" alt="">
+                <img src="images/sillas/sillon-curvo.png" alt="">
             </div>
 
             <div class="accordion">
                 <label for="accordion-2">
                     <div class="accordion-header">
                         <i class='fas fa-plus'></i>
-                        <h5 class=" titulo accordion-button-text">Revitalizá tu legado</h5>
+                        <h5 class="titulo">Revitalizá tu legado</h5>
                     </div>
                 </label>
                 <input type="checkbox" id="accordion-2" style="display: none">
@@ -89,9 +90,8 @@
 
 
 
-
         <!--Destacados Section-->
-            @php include '../resources/views/frontend/common/destacados.php'; @endphp
+            @include('layoutsWeb.destacados')
         <!--End Destacados Section-->
 
 
@@ -102,7 +102,7 @@
                 <label for="accordion-3">
                     <div class="accordion-header">
                         <i class='fas fa-plus'></i>
-                        <div class="accordion-button-text">Realizá piezas exclusivas</div>
+                        <h5 class="titulo">Realizá piezas exclusivas</h5>
                     </div>
                 </label>
                 <input type="checkbox" id="accordion-3" style="display: none">
@@ -117,7 +117,7 @@
                 <label for="accordion-4">
                     <div class="accordion-header">
                         <i class='fas fa-plus'></i>
-                        <div class="accordion-button-text">Realzá tu inversión</div>
+                        <h5 class="titulo">Realzá tu inversión</h5>
                     </div>
                 </label>
                 <input type="checkbox" id="accordion-4" style="display: none">
@@ -125,19 +125,15 @@
                     <p>El estudio pormenorizado de las tendencias del rubro y la formación permanente de los profesionales que integran el equipo de <span class="bold-text">gott</span>, nos permite brindar un canal de <a href="">ventas exclusivo</a> para acompañar las necesidades específicas de las empresas que entienden la elección de equipamiento de calidad como un factor determinante de la experiencia global de sus clientes. Brindamos <a href="">atención personalizada</a> y seguimiento de los proyectos.</p>
                     <a href="">Ver más</a>
                 </div>
-                <img src="images/sillon-blanco.jpg" alt="">
+                <img src="images/sillas/sillon-blanco.jpg" alt="">
             </div>
 
         </div>
 
-
-
-
-
         <div class="elegir-producto">
-            <p class="title">¿Cómo elegir el producto?</p>
+            <h5 class="title">¿Cómo elegir el producto?</h5>
             <p class="body">La integridad es el valor que orienta nuestras decisiones en el proceso de diseño de cada colección. Elegimos especializarnos en la fabricación con madera maciza porque comprobamos que es el mejor material para construir un producto noble como la silla. Además asumimos un compromiso bioresponsable y seleccionamos especialmente cada insumo para la manufactura de nuestros artículos. Si querés aprender más sobre el rubro, seguí la guía de nuestros especialistas.</p>
-            <a href="">Ver más</a>
+            <a class="italic" href="">Ver más</a>
         </div>
 
         <!--Instagram Feed Section-->

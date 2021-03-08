@@ -25,13 +25,13 @@
             <div class="header-menu-row-2">
                 <div class="header-menu-row-2-item">
                     <div class="dropdown-menu">
-                        <a href="/novedades">
+                        <a href="">
                             <div>Novedades</div>
                         </a>
-                        <a href="">
+                        <a href="/proyectos">
                             <div>Proyectos</div>
                         </a>
-                        <a href="">
+                        <a href="/sumate">
                             <div>Sumate a gott</div>
                         </a>
                     </div>
@@ -47,9 +47,9 @@
                 </div>
                 <div class="header-menu-row-2-item">
                     <div class="dropdown-menu">
-                        <a href="">Legado</a>
-                        <a href="">Fábrica boutique</a>
-                        <a href="">Sumate a gott</a>
+                        <a href="/legado">Legado</a>
+                        <a href="/fabrica-boutique">Fábrica boutique</a>
+                        <a href="/sumate">Sumate a gott</a>
                     </div>
                     <a href="#">Trayectoria <i class='fas fa-sort-down'></i></a>
                 </div>

@@ -28,7 +28,7 @@
 
 <body id="novedades">
   <!--Header Section-->
-  @php include '../resources/views/frontend/common/header.php'; @endphp
+  @include('layoutsWeb.header')
   <!--End Header Section-->
     <div class="main-container">
 

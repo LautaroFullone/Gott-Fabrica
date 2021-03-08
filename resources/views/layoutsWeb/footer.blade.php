@@ -9,8 +9,8 @@
     <div class="legal">
         <h6 class="titulo">Legales</h6>
 
-        <a href="">Avisos Legales</a>
-        <a href="">Política de Privacidad</a>
+        <a href="">Avisos Legales</a><br>
+        <a href="">Política de Privacidad</a><br>
         <a href="">Entregas y Envíos</a>
 
     </div>

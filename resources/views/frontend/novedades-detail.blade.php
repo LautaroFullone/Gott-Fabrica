@@ -10,11 +10,11 @@
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <script src='js/accordion.js'></script>
 
-
+    <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/fonts.css">
     <link rel="stylesheet" href="{{ URL::asset('css/estilosLau.css') }}">
 
-    <link rel="stylesheet" href="/css/style.css">
+
     <!--<link rel="stylesheet" href="css/accordion.css">-->
 
     <!-- font-awesome css -->
@@ -28,7 +28,7 @@
 
 <body id="novedades-detail">
   <!--Header Section-->
-  @php include '../resources/views/frontend/common/header.php'; @endphp
+  @include('layoutsWeb.header')
   <!--End Header Section-->
     <div class="main-container">
 

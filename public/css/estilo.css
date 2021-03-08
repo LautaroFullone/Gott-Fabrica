@@ -27,7 +27,19 @@
 }
 body{
     background-color: #F3F3F3;
-    font-family: 'Lato', sans-serif;
+    font-family: Lato sans-serif;
+}
+
+.contenedor{
+    margin: auto;
+    width: 95%;
+    min-height: 500px;
+}
+
+.contenedor-terminos{
+    display: flex;
+    align-items: center;
+    text-align:center;
 }
 /* --------------------------------------------------------------------------------------------------*/
 /* --------------------------------------------------------------------------------------------------*/
@@ -35,61 +47,19 @@ body{
 /* --------------------------------------------------------------------------------------------------*/
 /* --------------------------------------------------------------------------------------------------*/
 
-
-.contenedor{
-    margin: auto;
-    width: 95%;
-
-
+.texto-terminos{
+    margin: 15px 0 15px 0;
+    width: 80%;
 }
-.contenedor-titulo{
-    text-align: left;
-    font: normal normal 900 20px/24px Lato;
-    letter-spacing: 0px;
-    color: #272727;
-    opacity: 1;
-    margin-left: 10px;
-}
-.contenedor-parrafo{
-    text-align: left;
-    font: normal normal normal 16px/32px Lato;
-    letter-spacing: 0px;
-    color: #272727;
-    opacity: 1;
-    width: 90%;
-    margin:10px;
-}
-
 
 /* --------------------------------------------------------------------------------------------------*/
 /* --------------------------------------------------------------------------------------------------*/
 /* ----------------------------------------pag 22/18------------------------------------------------*/
 /* --------------------------------------------------------------------------------------------------*/
 /* --------------------------------------------------------------------------------------------------*/
-.contenido{
-    background: var(--unnamed-color-f3f3f3) 0% 0% no-repeat padding-box;
-    background: #F3F3F3 0% 0% no-repeat padding-box;
-}
-.contenido-titulo{
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-900) var(--unnamed-font-size-35)/var(--unnamed-line-spacing-42) var(--unnamed-font-family-lato);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-272727);
-    text-align: center;
-    font: normal normal 900 35px/42px Lato;
-    letter-spacing: 0px;
-    color: #272727;
-    opacity: 1;
-    margin:150px 0 30px 0;
 
-}
-.contenido-parrafo{
-    text-align: center;
-    font: normal normal normal 20px/24px Lato;
-    letter-spacing: 0px;
-    color: #272727;
-    opacity: 1;
-    width: 400;
-    height: 200px;
-    margin: 0 400px 20px 400px;
+.texto-confirmacion{
+    margin:0px auto;
+    font-size: 20px;
 }
 

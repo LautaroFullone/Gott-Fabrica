@@ -1,8 +1,8 @@
 <div class="slider-destacados">
   <div class="destacados-header">
     <div class="header-title">
-        <div class="section-title">Productos Destacados |</div>
-        <div class="section-link">Ver todas</div>
+        <h5 class="titulo">Productos Destacados |</h5>
+        <a href="" style="margin-left:10px;" class="link">Ver todas</a>
     </div>
     <div class="destacados-header-controls"></div>
   </div>

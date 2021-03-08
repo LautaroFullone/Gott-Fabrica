@@ -19,10 +19,11 @@ Route::get('/empresarios', 'WebController@showEmpresarios')->name('empresarios')
 
 Route::get('/profesionales','WebController@showProfecionales')->name('profesionales');
 
-Route::get('/novedades', 'WebController@showNovedades')->name('novedades');
+//Route::get('/novedades', 'WebController@showNovedades')->name('novedades');
 
-Route::get('/novedades/{id}','WebController@showNovedadesDetalle')->name('novedadesDetalle');
+//Route::get('/novedades/{id}','WebController@showNovedadesDetalle')->name('novedadesDetalle');
 
+//ARREGLAR
 Route::get('/pageNotFound','WebController@showPageNotFound')->name('notFound');
 
 Route::get('/proyectos','WebController@showProyectos')->name('proyectos');
@@ -35,13 +36,14 @@ Route::get('/contract', 'WebController@showContract')->name('contract');
 
 Route::get('/cookies','WebController@showCookie')->name('cookie');
 
+//ARREGLAR
 Route::get('/protect','WebController@protect')->name('protect');
 
 Route::get('/terminos','WebController@terminos')->name('terminos');
 
 Route::get('/fabrica-boutique','WebController@showFabricaBoutique')->name('fabrica-boutique');
 
-Route::get('/terminado','WebController@terminado')->name('terminado');
+Route::get('/confirmacion','WebController@showConfirmacion')->name('confirmacion');
 
 Route::get('/disenos','WebController@showDisenos')->name('disenos');
 

@@ -25,10 +25,22 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="contenido">
-    @include('/layoutsWeb/header')
-        <h1 class="contenido-titulo">Pagina no encontrada</h1>
-        <p class="contenido-parrafo">
-            Ups! El contenido que estás buscando no existe o no está disponible en este momento, por favor asegúrate de haber ingresado correctamente los parámetros de búsqueda.
-        </p>
-        @include('layoutsWeb.footer')</body>
+<body class="bg-oscuro">
+    @include('layoutsWeb.header')
+
+    <div class="contenedor contenedor-terminos">
+
+        <div class="texto-confirmacion">
+
+            <h3 class="titulo">Pagina no encontrada</h3>
+            <p>
+               Ups! El contenido que estás buscando no existe o no está <br>
+               disponible en este momento, por favor asegúrate de haber<br>
+               ingresado correctamente los parámetros de búsqueda.
+            </p>
+
+        </div>
+
+    </div>
+    @include('layoutsWeb.footer')
+</body>
