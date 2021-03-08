@@ -77,7 +77,7 @@
                         materia prima de nuestros artículos para garantizar la mayor durabilidad. Es por
                         esto que consideramos a nuestros proveedores como aliados estratégicos para la
                         producción sostenible y sustentable. Si brindas <strong>un servicio o elaborás
-                        insumos<strong> vinculados a la fabricación de sillas es posible que te interese
+                        insumos</strong> vinculados a la fabricación de sillas es posible que te interese
                         formar parte de nuestra red.</p>
 
                 </div>

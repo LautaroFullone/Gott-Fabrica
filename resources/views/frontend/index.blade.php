@@ -8,11 +8,10 @@
 
 
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
-    <script src='js/accordion.js'></script>
 
-    <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="{{ URL::asset('css/estilosLau.css') }}">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="{{ URL::asset('css/style.css') }}">
+    <link rel="stylesheet" href="{{ URL::asset('css/app.css') }}">
 
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css" crossorigin="anonymous" />
@@ -60,7 +59,7 @@
                 <label for="accordion-1">
                     <div class="accordion-header">
                         <i class='fas fa-plus'></i>
-                        <div class="accordion-button-text">Renová tu hogar</div>
+                        <h5 class="titulo accordion-button-text">Renová tu hogar</h5>
                     </div>
                 </label>
                 <input type="checkbox" id="accordion-1" style="display: none">
@@ -75,7 +74,7 @@
                 <label for="accordion-2">
                     <div class="accordion-header">
                         <i class='fas fa-plus'></i>
-                        <div class="accordion-button-text">Revitalizá tu legado</div>
+                        <h5 class=" titulo accordion-button-text">Revitalizá tu legado</h5>
                     </div>
                 </label>
                 <input type="checkbox" id="accordion-2" style="display: none">
