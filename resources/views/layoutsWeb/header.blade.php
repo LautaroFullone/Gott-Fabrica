@@ -85,7 +85,7 @@
             <div class="cart-amount">0</div>
             <i class='fas fa-shopping-cart'></i>
         </div>
-        <div class="linea"></div>
+
         <div class="header-slogan-row-2">
             <div class="header-slogan-text">Fabricamos sillas desde 1974</div>
         </div>

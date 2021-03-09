@@ -34,7 +34,7 @@
 
             <div class="sumate-texto">
 
-                <h2 class="titulo">Reinvención de sillas</h2>
+                <h3 class="titulo">Reinvención de sillas</h3>
 
                 <div class="parrafo">
 

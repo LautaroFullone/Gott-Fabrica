@@ -34,7 +34,7 @@
 
             <div class="sumate-texto">
 
-                <h2 class="titulo">Sumate a Gott</h2>
+                <h3 class="titulo">Sumate a Gott</h3>
 
                 <div class="parrafo">
 
@@ -55,7 +55,7 @@
                             <li> apuestan a la innovación en cada una de las instancias de diseño para mejorar la calidad de vida.</li>
                             <li> disfruten cada nuevo desafío laboral</li>
                         </ul>
-                    </div>
+                    </div><br>
 
                     <p> Trabajamos de manera colaborativa y generamos dinámicas puesta en común del
                         conocimiento que fuimos construyendo a lo largo de estos años de experiencia

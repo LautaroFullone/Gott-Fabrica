@@ -2,7 +2,7 @@
     <div class="destacados-header">
       <div class="header-title">
           <h5 class="titulo">Productos Destacados |</h5>
-          <a href="{{ route('tienda') }}" style="margin-left:5px;" class="italic">Ver todas</a>
+          <a href="{{ route('tienda') }}" style="margin-left:5px;" class="link italic">Ver todas</a>
       </div>
       <div class="destacados-header-controls"></div>
     </div>

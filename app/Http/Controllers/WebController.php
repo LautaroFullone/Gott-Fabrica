@@ -68,7 +68,9 @@ class WebController extends Controller
     public function showColaboradores(){
         return view('frontend.colaboradores');
     }
-
+    public function showAtencion(){
+        return view('frontend.atencion');
+    }
 
 
 }

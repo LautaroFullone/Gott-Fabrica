@@ -28,7 +28,7 @@
         <div class="grilla-proyectos">
 
             <div class="proyectos-texto">
-                <h2 class="titulo">Proyectos</h2>
+                <h3 class="titulo">Proyectos</h3>
 
                 <p class="parrafo">Gott es la fábrica de sillas de Mar del Plata. Los productos de la marca
                    ya son parte de los hogares y la vida de la ciudad. Es por esto que trabajamos

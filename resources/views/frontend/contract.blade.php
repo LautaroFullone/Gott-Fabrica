@@ -41,7 +41,7 @@
 
             <div class="sumate-texto">
 
-                <h2 class="titulo">Contract</h2>
+                <h3 class="titulo">Contract</h3>
 
                 <div class="parrafo">
 

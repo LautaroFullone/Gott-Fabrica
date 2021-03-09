@@ -19,11 +19,10 @@ Route::get('/empresarios', 'WebController@showEmpresarios')->name('empresarios')
 
 Route::get('/profesionales','WebController@showProfecionales')->name('profesionales');
 
-//Route::get('/novedades', 'WebController@showNovedades')->name('novedades');
+Route::get('/novedades', 'WebController@showNovedades')->name('novedades');
 
-//Route::get('/novedades/{id}','WebController@showNovedadesDetalle')->name('novedadesDetalle');
+Route::get('/novedades/{id}','WebController@showNovedadesDetalle')->name('novedadesDetalle');
 
-//ARREGLAR
 Route::get('/pageNotFound','WebController@showPageNotFound')->name('notFound');
 
 Route::get('/proyectos','WebController@showProyectos')->name('proyectos');
@@ -36,7 +35,6 @@ Route::get('/contract', 'WebController@showContract')->name('contract');
 
 Route::get('/cookies','WebController@showCookie')->name('cookie');
 
-//ARREGLAR
 Route::get('/protect','WebController@protect')->name('protect');
 
 Route::get('/terminos','WebController@terminos')->name('terminos');
@@ -52,3 +50,5 @@ Route::get('/legado','WebController@showLegado')->name('legado');
 Route::get('/colaboradores','WebController@showColaboradores')->name('colaboradores');
 
 Route::get('/colecciones','WebController@showColecciones')->name('colecciones');
+
+Route::get('/atencion','WebController@showAtencion')->name('atencion');

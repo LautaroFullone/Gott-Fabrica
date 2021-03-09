@@ -33,7 +33,7 @@
                 <div class="slider-card">
                     <div class="slider-card-text-big">Creatividad y fabricación de calidad al servicio del confort.</div>
                     <a href="">
-                        <div class="italic">Conocé nuestras sillas Pampa</div>
+                        <div class="link italic">Conocé nuestras sillas Pampa</div>
                     </a>
                 </div>
             </div>
@@ -41,7 +41,7 @@
                 <div class="slider-card">
                     <div class="slider-card-text-big">Pasión por la calidad, el diseño y el servicio.</div>
                     <a href="">
-                        <div class="italic">Conocé nuestras sillas Normandy</div>
+                        <div class="link italic">Conocé nuestras sillas Normandy</div>
                     </a>
                 </div>
             </div>
@@ -49,7 +49,7 @@
                 <div class="slider-card">
                     <div class="slider-card-text-big">Calidez y confort para los comedores contemporáneos.</div>
                     <a href="">
-                        <div class="italic">Conocé nuestras sillas Queens</div>
+                        <div class="link italic">Conocé nuestras sillas Queens</div>
                     </a>
                 </div>
             </div>
@@ -66,7 +66,7 @@
                 <input type="checkbox" id="accordion-1" style="display: none">
                 <div class="accordion-container">
                         <p>Somos una fábrica especializada en sillas y mobiliario exclusivo con más de 40 años de experiencia. <a href="">La calidad de las maderas</a> especialmente seleccionadas que utilizamos en nuestros productos, pueden convertir en un lugar especial cualquier rincón de tu hogar. Sabemos la importancia de conocer de primera mano cada detalle de una silla, por eso, abrimos al público <a href="">nuestra fábrica boutique</a> para contar la historia detrás de cada pieza que sumamos a la <a href="">tienda</a>.</p>
-                        <a href="">Ver más</a>
+                        <a class="link italic" href="">Ver más</a>
                 </div>
                 <img src="images/sillas/sillon-curvo.png" alt="">
             </div>
@@ -133,11 +133,11 @@
         <div class="elegir-producto">
             <h5 class="title">¿Cómo elegir el producto?</h5>
             <p class="body">La integridad es el valor que orienta nuestras decisiones en el proceso de diseño de cada colección. Elegimos especializarnos en la fabricación con madera maciza porque comprobamos que es el mejor material para construir un producto noble como la silla. Además asumimos un compromiso bioresponsable y seleccionamos especialmente cada insumo para la manufactura de nuestros artículos. Si querés aprender más sobre el rubro, seguí la guía de nuestros especialistas.</p>
-            <a class="italic" href="">Ver más</a>
+            <a class="link italic" href="">Ver más</a>
         </div>
 
         <!--Instagram Feed Section-->
-        @php include '../resources/views/frontend/common/instagram-feed.php'; @endphp
+        {{--  @php include '../resources/views/frontend/common/instagram-feed.php'; @endphp--}}
         <!--End Instagram Feed Section-->
 
     </div>
