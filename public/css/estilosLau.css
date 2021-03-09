@@ -63,25 +63,17 @@ body{
     color: gray;
 }
 
-
 .link{
     color: var(--pagina-rojo);
 }
-
 
 .widget{
     height: 250px;
     padding-top: 100px;
 }
-.hola{
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-900) var(--unnamed-font-size-20)/var(--unnamed-line-spacing-24) var(--unnamed-font-family-lato);
-letter-spacing: var(--unnamed-character-spacing-0);
-color: var(--unnamed-color-272727);
-text-align: left;
-font: normal normal 900 20px/24px Lato;
-letter-spacing: 0px;
-color: #272727;
 
+.icono span{
+    height: 68%;
 }
 
 
@@ -722,7 +714,6 @@ color: #272727;
     grid-area: cartel-2;
 }
 
-
 /*----------------PAGINA 14---------------*/
 .grilla-colaboradores{
     display: grid;
@@ -871,5 +862,185 @@ color: #272727;
 }
 
 .atencion-personalizada .rango input{
+    width: 100%;
+}
+
+/*----------------PAGINA 15---------------*/
+.grilla-tienda{
+    display: grid;
+    min-height: 600px;
+
+    grid-template-columns: minmax(100px, 300px) repeat(2, 1fr);
+    grid-template-rows: repeat(3, minmax(20px,auto)) repeat(3, minmax(200px, auto));
+
+    grid-template-areas: "banner       banner      banner"
+                         "encabezado   buscador    filtro"
+                         "datos        datos       datos"
+                         "info         productos   productos"
+                         "info         productos   productos"
+                         "info         productos   productos";
+}
+
+.grilla-tienda .encabezado{
+    grid-area: encabezado;
+    background-color: var(--pagina-rojo);
+    text-align: center;
+    padding-top: 17px;
+    height: 48px;
+    color: var(--pagina-blanco);
+}
+
+.grilla-tienda .buscador{
+    grid-area: buscador;
+    padding-top: 10px;
+    background-color: var(--pagina-rojo);
+    color: var(--pagina-blanco);
+    height: 55px;
+}
+
+.grilla-tienda .datos{
+   grid-area: datos;
+}
+.datos img{
+    width: 100%;
+}
+
+.buscador span{
+    border-radius: 0;
+}
+
+.buscador input{
+    width: 80%;
+    height: 30px;
+}
+
+
+.grilla-tienda .filtro{
+    grid-area: filtro;
+    background-color: var(--pagina-rojo);
+    color: var(--pagina-blanco);
+    text-align: right;
+    padding-top: 25px;
+    padding-right: 10px;
+    height: 40px;
+}
+.grilla-tienda .banner{
+    grid-area: banner;
+}
+.banner img{
+    width: 100%;
+}
+.grilla-tienda .info{
+    grid-area: info;
+    padding: 30px;
+}
+
+.grilla-tienda .grilla-productos{
+    grid-area: productos;
+    margin-top: 40px;
+    display: grid;
+    min-height: 300px;
+    grid-gap: 20px;
+    margin-bottom: 40px;
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.grilla-productos img{
+    width: 100%;
+}
+
+.grilla-productos p,
+.info p{
+    margin-bottom: 0;
+}
+
+.grilla-productos .titulo{
+    margin-top: 10px;
+}
+
+.filtros-tienda a,
+.filtros-tienda p{
+    color: gray;
+    display: block;
+}
+
+/*----------------PAGINA 16---------------*/
+
+.grilla-producto-detail{
+    display: grid;
+    grid-gap: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    grid-template-columns: 0.5fr 1.5fr 1.5fr;
+    grid-template-rows: repeat(4,minmax(100,auto));
+
+    grid-template-areas: "foto-producto         foto-producto            texto-producto"
+                         "foto-producto         foto-producto            texto-producto"
+                         "descripcion-titulo    descripcion-producto     nada"
+                         "especifi-titulo       especifi-producto        nada";
+}
+
+.grilla-producto-detail .texto-producto{
+    grid-area: texto-producto;
+}
+
+.texto-producto .grilla-inputs{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2,minmax(20px, auto));
+}
+.grilla-inputs input{
+    width: 80%;
+}
+
+.texto-producto .info .icono{
+    font-size: 30px;
+}
+
+.info p{
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.grilla-producto-detail .foto-producto{
+    grid-area: foto-producto;
+    overflow: hidden;
+}
+.grilla-producto-detail .foto-producto img{
+    width: 100%;
+}
+.grilla-producto-detail .descripcion-producto{
+    grid-area: descripcion-producto;
+}
+.grilla-producto-detail .descripcion-titulo{
+    grid-area: descripcion-titulo;
+}
+.grilla-producto-detail .especifi-titulo{
+    grid-area: especifi-titulo;
+}
+.grilla-producto-detail .especifi-producto{
+    grid-area: especifi-producto;
+}
+
+.grilla-compatibilidades{
+    display: grid;
+    grid-gap: 20px;
+
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: minmax(150px, auto);
+    margin-bottom: 30px;
+}
+.abajo{
+    padding-top: 10px;
+}
+.margin-0 {
+    padding-bottom: 5px;
+    margin-left: 12px;
+}
+.grilla-compatibilidades img{
     width: 100%;
 }

@@ -10,7 +10,7 @@ class WebController extends Controller
         return view('frontend.index');
     }
     public function showTienda(){
-        return view('frontend.shop-index');
+        return view('frontend.tienda');
     }
     public function showEmpresarios(){
         return view('frontend.empresarios');
@@ -70,6 +70,9 @@ class WebController extends Controller
     }
     public function showAtencion(){
         return view('frontend.atencion');
+    }
+    public function showProducto(){
+        return view('frontend.producto');
     }
 
 

@@ -41,7 +41,7 @@
 
             <div class="rango">
                 <label for="customRange2" class="form-label"></label>
-                <input type="range" class="form-range" min="0" max="5" id="customRange2"><br><br>
+                <input type="range" class="form-range" min="0" max="4" id="customRange2"><br><br>
             </div>
 
 

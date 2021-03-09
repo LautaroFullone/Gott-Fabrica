@@ -52,3 +52,5 @@ Route::get('/colaboradores','WebController@showColaboradores')->name('colaborado
 Route::get('/colecciones','WebController@showColecciones')->name('colecciones');
 
 Route::get('/atencion','WebController@showAtencion')->name('atencion');
+
+Route::get('/producto','WebController@showProducto')->name('producto');
