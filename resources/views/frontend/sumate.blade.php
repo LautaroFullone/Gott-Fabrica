@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="{{ URL::asset('css/style.css') }}">
     <link rel="stylesheet" href="{{ URL::asset('css/app.css') }}">
 
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{ URL::asset('css/font-awesome.min.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css" crossorigin="anonymous" />
     <script src="https://code.jquery.com/jquery-1.12.4.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js" crossorigin="anonymous"></script></head>

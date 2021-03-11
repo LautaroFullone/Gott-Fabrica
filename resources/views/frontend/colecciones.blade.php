@@ -44,11 +44,12 @@
 
 
 
+
+
         <div class="grilla-colecciones">
 
             <div class="imagen">
                 <img src="{{ asset('images\novedades-detail\coleccion.jpg') }}" alt="">
-                {{-- <div class="cartel">Hola</div>--}}
             </div>
 
             <div class="descripcion">

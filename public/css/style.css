@@ -49,6 +49,7 @@
     grid-template-columns: 200px auto 200px;
     height: 60px;
     padding: 25px 30px;
+    overflow: hidden;
 
 }
 .header .header-logo {
@@ -176,10 +177,10 @@
 .linea {
     height: 1px;
     background-color: #ddd;
-    width: 100%;
+    width: 150%;
 }
 .header-menu .linea {
-    width: 150%;
+    width: 300%;
 }
 .header-menu-row-2 {
     display: grid;
@@ -780,7 +781,7 @@
     margin-top: 30px;
 }
 #empresarios .no-map-section {
-    background-image: url(../images/profesionales/slider-profesionales.jpg);
+    background-image: url(../images/profesionales/slider-profesionales.jpg.jpg);
     width: 100%;
     height: 26vw;
     margin-top: 30px;
