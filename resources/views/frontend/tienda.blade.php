@@ -88,42 +88,68 @@
             <div class="grilla-productos">
 
                 <div>
-                    <img src="images\tienda\foto1.jpg" alt="">
+                    <a href="">
+                        <div class="div-img hidden" >
+                            <img class="img" src="images\tienda\foto1.jpg" alt="">
+                        </div>
+                    </a>
+
                     <h5 class="titulo">Lorem ipsum</h5>
                     <p>Lorem ipsum dolor sit amet</p>
                     <h3 class="titulo">$ 4500.-</h3>
                 </div>
 
                 <div>
-                    <img src="images\tienda\foto2.jpg" alt="">
+                    <a href="">
+                        <div class="div-img hidden" >
+                            <img class="img" src="images\tienda\foto2.jpg" alt="">
+                        </div>
+                    </a>
+
                     <h5 class="titulo">Lorem ipsum</h5>
                     <p>Lorem ipsum dolor sit amet</p>
                     <h3 class="titulo">$ 4500.-</h3>
                 </div>
 
                 <div>
-                    <img src="images\tienda\foto3.jpg" alt="">
+                    <a href="">
+                        <div class="div-img hidden" >
+                            <img class="img" src="images\tienda\foto3.jpg" alt="">
+                        </div>
+                    </a>
                     <h5 class="titulo">Lorem ipsum</h5>
                     <p>Lorem ipsum dolor sit amet</p>
                     <h3 class="titulo">$ 4500.-</h3>
                 </div>
 
                 <div>
-                    <img src="images\tienda\foto4.jpg" alt="">
+                    <a href="">
+                        <div class="div-img hidden" >
+                            <img class="img" src="images\tienda\foto4.jpg" alt="">
+                        </div>
+                    </a>
                     <h5 class="titulo">Lorem ipsum</h5>
                     <p>Lorem ipsum dolor sit amet</p>
                     <h3 class="titulo">$ 4500.-</h3>
                 </div>
 
                 <div>
-                    <img src="images\tienda\foto5.jpg" alt="">
+                    <a href="">
+                        <div class="div-img hidden" >
+                            <img class="img" src="images\tienda\foto5.jpg" alt="">
+                        </div>
+                    </a>
                     <h5 class="titulo">Lorem ipsum</h5>
                     <p>Lorem ipsum dolor sit amet</p>
                     <h3 class="titulo">$ 4500.-</h3>
                 </div>
 
                 <div>
-                    <img src="images\tienda\foto6.jpg" alt="">
+                    <a href="">
+                        <div class="div-img hidden" >
+                            <img class="img" src="images\tienda\foto6.jpg" alt="">
+                        </div>
+                    </a>
                     <h5 class="titulo">Lorem ipsum</h5>
                     <p>Lorem ipsum dolor sit amet</p>
                     <h3 class="titulo">$ 4500.-</h3>

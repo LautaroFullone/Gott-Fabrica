@@ -49,7 +49,7 @@
         <div class="grilla-colecciones">
 
             <div class="imagen">
-                <img src="{{ asset('images\novedades-detail\coleccion.jpg') }}" alt="">
+                <img src="{{  asset('images\novedades-detail\coleccion.jpg')  }}" alt="">
             </div>
 
             <div class="descripcion">

@@ -39,9 +39,10 @@
                 rebum.
             </p> <br>
 
+
             <div class="rango">
                 <label for="customRange2" class="form-label"></label>
-                <input type="range" class="form-range" min="0" max="4" id="customRange2"><br><br>
+                <input type="range" class="custom-range" min="0" max="4" id="customRange2"><br><br>
             </div>
 
 
@@ -55,7 +56,7 @@
 
             <hr>
 
-            <a class="btn btn-secondary float-right" href="">Siguiente</a><br><br>
+            <a class="btn btn-dark float-right" href="">Siguiente</a><br><br>
         </div>
 
     </div>

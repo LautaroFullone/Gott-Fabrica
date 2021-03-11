@@ -977,6 +977,39 @@ body{
     display: block;
 }
 
+.div-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hidden{
+    overflow: hidden;
+}
+
+.img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    transform:scale(1);
+    -ms-transform:scale(1);
+    -moz-transform:scale(1);
+    -webkit-transform:scale(1);
+    -o-transform:scale(1);
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+}
+.img:hover{
+    transform:scale(1.2);
+    -ms-transform:scale(1.2);
+    -moz-transform:scale(1.2);
+    -webkit-transform:scale(1.2);
+    -o-transform:scale(1.2);
+}
+
 /*----------------PAGINA 16---------------*/
 
 .grilla-producto-detail{
