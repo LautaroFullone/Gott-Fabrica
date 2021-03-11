@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,36 +6,78 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>GOTT</title>
 
-    <!-- font-awesome css -->
-    <link rel="stylesheet" href="{{ URL::asset ('css/font-awesome.min.css') }}">
-
-    <script src="https://kit.fontawesome.com/fdbba8c2bf.js" crossorigin="anonymous"></script>
-    <script src='js/accordion.js'></script>
-
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="{{ URL::asset('css/style.css') }}">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
     <link rel="stylesheet" href="{{ URL::asset('css/estilosLau.css') }}">
-    <link rel="stylesheet" href="{{ URL::asset('css/estilo.css') }}">
+    <link rel="stylesheet" href="{{ URL::asset('css/style.css') }}">
     <link rel="stylesheet" href="{{ URL::asset('css/app.css') }}">
+
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css" crossorigin="anonymous" />
-
     <script src="https://code.jquery.com/jquery-1.12.4.js" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js" crossorigin="anonymous"></script>
-</head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js" crossorigin="anonymous"></script></head>
 
 
-
-<body id="profesionales">
+<body id="empresarios">
   <!--Header Section-->
   @include('layoutsWeb.header')
   <!--End Header Section-->
     <div class="main-container">
 
+        <div class="banner">
+          <img src="images/empresarios/foto1.jpg" alt="">
+        </div>
+
+        <div class="subsection">
+          <div>
+            <h5 class="titulo">Gestión de diseños co-creados</h5>
+            <div class="body simple-text">Además de fabricar y comercializar nuestras colecciones, brindamos un servicio de gestión y diseño de piezas exclusivas partiendo de los requerimientos estéticos y funcionales de los proyectos de arquitectos, diseñadores y decoradores. Para agilizar la comunicación con los profesionales, enviamos la documentación técnica y confeccionamos prototipos que serán la base de la futura producción.</div>
+            <img src="images/empresarios/foto3.jpg" alt="">
+          </div>
+          <div>
+            <h5 class="titulo">Calidad premium</h5>
+            <div class="body simple-text">La integridad es el valor que orienta nuestras decisiones en el proceso de diseño de cada colección. Elegimos especializarnos en la fabricación con madera maciza porque comprobamos que es el mejor material para construir un producto noble como la silla. Además asumimos un compromiso bioresponsable y seleccionamos especialmente cada insumo para la manufactura de nuestros artículos. Si querés aprender más sobre el rubro, seguí la guía de nuestros especialistas.</div>
+            <img src="images/profesionales/foto1.jpg" alt="">
+          </div>
+
+        </div>
+
+        <!--Destacados Section-->
+          @include('layoutsWeb.destacados')
+        <!--End Destacados Section-->
+
+        <div class="no-map-section ">
+          <div class="text">
+              <div class="simple-text" >Prensa</div>
+            <h5 class="titulo">Diseño de excelencia</h5>
+            <div class="body simple-text">La Silla Australia es uno de nuestros estudios de casos. Dentro de los proyectos destacados, la Silla Australia de la diseñadora Lula Viazzo de BBANT interior fue un desafío que acompañamos desde la fábrica con el objetivo de crear una pieza a medida para un comedor contemporáneo que era parte de la visión de la profesional.</div>
+            <a class="italic link">Continuar leyendo la nota</a>
+        </div>
+        </div>
+
+        <br><br>
+        <div class="widget">
+            <h4 class="titulo">
+                Queremos conocer tus metas <br> y seguir en contacto
+            </h4>
+            <br>
+           <a class="btn btn-gott">Contactar</a>
+
+        </div>
 
 
-        <div class="breadcrumb simple-text">gott / <span>profesionales</span></div>
+    </div>
 
+    <!--Footer Section-->
+    @include('layoutsWeb.footer')    <!--End Footer Section-->
+
+
+</body>
+</html>
+
+{{--
         <div class="banner">
           <img src="images/empresarios/foto1.jpg" alt="">
         </div>
@@ -77,49 +118,4 @@
           </div>
         </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-          <!--Instagram Feed Section-->
-          @php include '../resources/views/frontend/common/instagram-feed.php'; @endphp
-          <!--End Instagram Feed Section-->
-
-
-
-
-
-
-
-    </div>
-
-    <!--Footer Section-->
-    @include('layoutsWeb.footer')    <!--End Footer Section-->
-
-<script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
-<script type="text/javascript">
-var userFeed = new Instafeed({
-    get: 'user',
-    target: "instafeed-container",
-    template: '<div><a style="width: 100%" href="@{{link}}" target="_blank"><img style="width: 100%" src="@{{image}}" /></a></div>',
-    resolution: 'low_resolution',
-    accessToken: 'IGQVJYb3RSMzFDS25aUThLd2h6YmFVZAmJBbHdxdExBUG5UZAThFM1dHekNzNUtpa0dReVlOT3NON24xcW9vdXVxRUFRbDJGNDE4ZAEdNaGVWenF3TzFnU2hUd2JiUEFLSUl2YVlFOXpCWXR3Q1J3cXJwTAZDZD'
-});
-userFeed.run();
-</script>
-
-
-</body>
-</html>
+--}}

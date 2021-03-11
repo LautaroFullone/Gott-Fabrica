@@ -33,13 +33,13 @@
     <div class="contenido">
 
         <div class="lista-colecciones">
-            <a href="#" class="item">Ariel</a>|
-            <a href="#" class="item">Normandy</a>|
-            <a href="#" class="item">Nino</a>|
-            <a href="#" class="item">Pampa</a>|
-            <a href="#" class="item">Queens</a>|
-            <a href="#" class="item">Pedro</a>|
-            <a href="#" class="item">Tortoni</a>
+            <a href="#" class="item titulo">Ariel</a>|
+            <a href="#" class="item titulo rojo">Normandy</a>|
+            <a href="#" class="item titulo">Nino</a>|
+            <a href="#" class="item titulo">Pampa</a>|
+            <a href="#" class="item titulo">Queens</a>|
+            <a href="#" class="item titulo">Pedro</a>|
+            <a href="#" class="item titulo">Tortoni</a>
         </div>
 
 
@@ -89,15 +89,15 @@
             <div class="productos">
                 <div>
                     <img src="images\sillas\silla4.jpg" alt="">
-                    <a class="italic" href="#">Ver Producto en Tienda</a>
+                    <a class="italic link" href="#">Ver Producto en Tienda</a>
                 </div>
                 <div>
                     <img src="images\sillas\silla1.jpg" alt="">
-                    <a class="italic" href="#">Ver Producto en Tienda</a>
+                    <a class="italic link" href="#">Ver Producto en Tienda</a>
                 </div>
                 <div>
                     <img src="images\sillas\silla2.jpg" alt="">
-                    <a class="italic" href="#">Ver Producto en Tienda</a>
+                    <a class="italic link" href="#">Ver Producto en Tienda</a>
                 </div>
             </div>
 
@@ -109,7 +109,7 @@
                     público con una propuesta renovada a cargo del Café de la Loma. Para la ocasión,
                     el equipo de GOTT realizó un estudio de los principales rasgos arquitectónicos...
                 </p>
-                <a class="italic" href="#">Ver mas</a>
+                <a class="italic link" href="#">Ver mas</a>
 
             </div>
         </div>

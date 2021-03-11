@@ -1,4 +1,5 @@
 
+
 <div class="header">
     <div>
       <a class="header-logo" href="/">
@@ -27,14 +28,14 @@
 
                 <div class="header-menu-row-2-item">
                     <div class="dropdown-menu">
-                        <a href="">
-                            <div>Novedades</div>
+                        <a href="{{ route('novedades') }}">
+                            Novedades
                         </a>
                         <a href="{{ route('proyectos') }}">
-                            <div>Proyectos</div>
+                            Proyectos
                         </a>
                         <a href="{{ route('sumate') }}">
-                            <div>Sumate a gott</div>
+                            Sumate a gott
                         </a>
                     </div>
                     <a href="">Lanzamientos <i class='fas fa-sort-down'></i></a>
@@ -55,14 +56,14 @@
                     </div>
                     <a href="">Trayectoria <i class='fas fa-sort-down'></i></a>
                 </div>
-                <div class="header-menu-row-2-item single-link">
+                <div class="header-menu-row-2-item ">
                     <a href="{{ route('colecciones') }}">Colecciones</a>
                 </div>
-                <div class="header-menu-row-2-item single-link">
+                <div class="header-menu-row-2-item">
                     <a href="{{ route('colaboradores') }}">Diseñadores</a>
                 </div>
-                <div class="header-menu-row-2-item single-link">
-                    <a href="/">Atención Personalizada</a>
+                <div class="header-menu-row-2-item">
+                    <a href="{{ route('atencion') }}">Atención Personalizada</a>
                 </div>
                 <div class="header-menu-row-2-item">
                     <div class="dropdown-menu dropdown-menu-seguinos">

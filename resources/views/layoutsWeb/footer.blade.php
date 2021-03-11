@@ -21,7 +21,7 @@
         <a href=""><i class="fa fa-facebook"></i></a>
         <a href=""><i class="fab fa-pinterest-p"></i></a>
         <a href=""><i class="fab fa-instagram"></i></a><br>
-        <a class="link italic" href="">Sumate a Gott</a>
+        <a class="link italic titulo" href="">Sumate a Gott</a>
 
     </div>
 

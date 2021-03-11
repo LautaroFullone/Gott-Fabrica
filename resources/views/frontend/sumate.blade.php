@@ -79,19 +79,14 @@
             <div class="sumate-fotos">
 
                 <div class="grilla-fotos">
+                    <img src="{{ asset('images/sillas/silla1.jpg') }}" alt="">
 
-                    <div class="abajo">
-                        <img src="{{ asset('images/sillas/silla1.jpg') }}" alt="">
-                    </div>
-                    <div class="abajo">
-                        <img src="{{ asset('images/sillas/silla2.jpg') }}" alt="">
-                    </div >
-                    <div>
-                        <img src="{{ asset('images/sillas/silla3.jpg') }}" alt="">
-                    </div>
-                    <div>
-                        <img src="{{ asset('images/sillas/silla4.jpg') }}" alt="">
-                    </div>
+                    <img src="{{ asset('images/sillas/silla2.jpg') }}" alt="">
+
+                    <img src="{{ asset('images/sillas/silla3.jpg') }}" alt="">
+
+                    <img src="{{ asset('images/sillas/silla4.jpg') }}" alt="">
+
 
                 </div>
 

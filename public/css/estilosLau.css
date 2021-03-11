@@ -36,6 +36,7 @@ body{
     font-family: 'Lato' sans-serif;
 }
 
+
 .contenido{
     margin:auto;
     width: 95%;
@@ -63,6 +64,10 @@ body{
     color: gray;
 }
 
+.rojo{
+    color: var(--pagina-rojo);
+}
+
 .link{
     color: var(--pagina-rojo);
 }
@@ -81,20 +86,25 @@ body{
 .footer-lau{
     display: grid;
     grid-gap: 5px;
+    padding: 0 30px;
 
-    grid-template-columns: 1fr 280px repeat(3,1fr);
-    grid-template-rows: minmax(200px,auto);
+    grid-template-columns: 1fr 275px repeat(3,1fr);
+    grid-template-rows: minmax(100px,auto);
+
 
     grid-template-areas: "logo  horarios  contacto  legal  redes"
                          "datos datos datos datos datos";
 }
+
 .footer-lau p{
     margin-bottom: 0px;
+    line-height: 30px;
 }
 
 .footer-lau .logo{
     grid-area: logo;
     padding: 20px;
+    padding-left: 0px;
     line-height: 15px;
     margin-bottom: 0px;
     padding-bottom: 0px;
@@ -139,7 +149,6 @@ body{
 }
 
 .footer-lau .redes a{
-    margin-left: 10px;
     margin-right: 10px;
 }
 
@@ -167,6 +176,7 @@ body{
 .grilla-proyectos .proyectos-texto{
     grid-area: texto;
     padding: 30px;
+    padding-left: 0;
 }
 
 .proyectos-texto .parrafo{
@@ -208,6 +218,7 @@ body{
 .grilla-sumate .sumate-texto{
     grid-area: texto;
     padding: 30px;
+    padding-left: 0;
 
 }
 
@@ -267,7 +278,7 @@ body{
 
 .zona-fotos{
     grid-area: fotos;
-    align-self: center
+    padding-top: 70px;
 }
 
 .foto-1{
@@ -312,6 +323,7 @@ body{
 .grilla-contract .sumate-texto{
     grid-area: texto;
     padding: 30px;
+    padding-left: 0;
 
 }
 
@@ -347,9 +359,12 @@ body{
     grid-gap: 20px;
 
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 500px 500px;
+    grid-template-rows: repeat(2, minmax(50px, auto));
 }
 
+.grilla-fotos img{
+    height: 95%;
+}
 
 /*--------------PAGINA 10  -------------*/
 
@@ -386,6 +401,7 @@ body{
     grid-area: foto;
     background: var(--pagina-gris);
     margin: 20px;
+    margin-right: 0;
 }
 
 .contenido .grilla-disenos-2{
@@ -643,11 +659,6 @@ body{
     font-size: 18px;
     margin: 20px 0px 20px 0px;
 }
-
-.lista-colecciones a{
-    color:var(--unnamed-color-272727);
-}
-
 
 .lista-colecciones .item{
     margin: 0px 10px 0px 10px;
@@ -1035,7 +1046,7 @@ body{
     margin-bottom: 30px;
 }
 .abajo{
-    padding-top: 10px;
+    padding-top: 5px;
 }
 .margin-0 {
     padding-bottom: 5px;

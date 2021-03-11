@@ -69,26 +69,11 @@
 
         </div>
 
-          <!--Instagram Feed Section-->
-          @php include '../resources/views/frontend/common/instagram-feed.php'; @endphp
-          <!--End Instagram Feed Section-->
 
     </div>
 
     <!--Footer Section-->
     @include('layoutsWeb.footer')    <!--End Footer Section-->
-
-<script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
-<script type="text/javascript">
-var userFeed = new Instafeed({
-    get: 'user',
-    target: "instafeed-container",
-    template: '<div><a style="width: 100%" href="@{{link}}" target="_blank"><img style="width: 100%" src="@{{image}}" /></a></div>',
-    resolution: 'low_resolution',
-    accessToken: 'IGQVJYb3RSMzFDS25aUThLd2h6YmFVZAmJBbHdxdExBUG5UZAThFM1dHekNzNUtpa0dReVlOT3NON24xcW9vdXVxRUFRbDJGNDE4ZAEdNaGVWenF3TzFnU2hUd2JiUEFLSUl2YVlFOXpCWXR3Q1J3cXJwTAZDZD'
-});
-userFeed.run();
-</script>
 
 
 </body>
