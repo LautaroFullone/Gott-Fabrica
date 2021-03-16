@@ -84,16 +84,7 @@ body{
 
 /*--------------------FOOTER--------------------*/
 .footer-lau{
-    display: grid;
-    grid-gap: 5px;
-    padding: 0 30px;
-
-    grid-template-columns: 1fr 275px repeat(3,1fr);
-    grid-template-rows: minmax(100px,auto);
-
-
-    grid-template-areas: "logo  horarios  contacto  legal  redes"
-                         "datos datos datos datos datos";
+    d 
 }
 
 .footer-lau p{
